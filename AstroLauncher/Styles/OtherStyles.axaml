@@ -13,4 +13,11 @@
         <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
         <Setter Property="MaxDropDownHeight" Value="200"/>
     </Style>
+    
+    <Style Selector="Border.InnerSurface">
+        <Setter Property="BorderBrush" Value="{DynamicResource SurfaceCard}"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="Background" Value="{DynamicResource SurfaceSecondary}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+    </Style>
 </Styles>

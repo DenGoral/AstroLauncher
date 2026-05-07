@@ -7,6 +7,8 @@
         <entry key="AstroLauncher/SettingsWindow.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/ButtonStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/Colors.axaml" value="AstroLauncher/AstroLauncher.csproj" />
+        <entry key="AstroLauncher/Styles/OtherStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
+        <entry key="AstroLauncher/Styles/SettingsStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/DiscoverView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/HomeView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/InstancesView.axaml" value="AstroLauncher/AstroLauncher.csproj" />

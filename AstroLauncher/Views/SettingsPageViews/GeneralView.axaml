@@ -6,8 +6,17 @@
              x:CompileBindings="True"
              x:Class="AstroLauncher.Views.SettingsPageViews.GeneralView">
 
-    <Grid>
-        <TextBlock Text="General Page Loaded" FontSize="30" Foreground="White"/>
-    </Grid>
+    <Border>
+        <StackPanel Margin="15" Spacing="3">
+            <TextBlock Text="General" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" 
+                       HorizontalAlignment="Left"/>
+        
+            <ScrollViewer HorizontalScrollBarVisibility="Disabled"
+                          VerticalScrollBarVisibility="Visible">
+                
+                
+            </ScrollViewer>
+        </StackPanel>    
+    </Border>
 
 </UserControl>
