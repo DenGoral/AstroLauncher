@@ -7,7 +7,7 @@
              x:Class="AstroLauncher.Views.SettingsPageViews.LauncherView">
 
     <Grid>
-        <TextBlock Text="Launcher Page Loaded" FontSize="30" Foreground="White"/>
+        <TextBlock Text="Launcher Page Loaded" Classes="Header"/>
     </Grid>
 
 </UserControl>

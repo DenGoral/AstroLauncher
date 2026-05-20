@@ -7,10 +7,11 @@
     <Application.Styles>
         <FluentTheme />
         
-        <StyleInclude Source="Styles/ButtonStyles.axaml"/>
-        <StyleInclude Source="Styles/TextBoxStyles.axaml"/>
-        <StyleInclude Source="Styles/OtherStyles.axaml"/>
-        <StyleInclude Source="Styles/ListBoxStyles.axaml"/>
+        <StyleInclude Source="/Styles/ButtonStyles.axaml"/>
+        <StyleInclude Source="/Styles/TextBoxStyles.axaml"/>
+        <StyleInclude Source="/Styles/OtherStyles.axaml"/>
+        <StyleInclude Source="/Styles/ListBoxStyles.axaml"/>
+        <StyleInclude Source="/Styles/SettingsStyles.axaml"/>
     </Application.Styles>
     
     <Application.Resources>

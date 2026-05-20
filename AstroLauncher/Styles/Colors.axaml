@@ -1,7 +1,7 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <SolidColorBrush x:Key="AccentColor">#8C66FF</SolidColorBrush>
+    <Color x:Key="MyAccentColorNative">#8C66FF</Color>
 
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Dark">
@@ -10,6 +10,7 @@
             <SolidColorBrush x:Key="TextPrimary">White</SolidColorBrush>
             <SolidColorBrush x:Key="TextSecondary">LightSlateGray</SolidColorBrush>
             <SolidColorBrush x:Key="SurfaceSecondary">#0D111D</SolidColorBrush>
+            <SolidColorBrush x:Key="AccentColor" Color="{StaticResource MyAccentColorNative}"/>
         </ResourceDictionary>
         
         <ResourceDictionary x:Key="Light">

@@ -11,11 +11,8 @@
     
     <Border>
        <StackPanel Margin="15" Spacing="3">
-           <TextBlock Text="Settings" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" 
-                      HorizontalAlignment="Left"/>
-        
-           <TextBlock Text="Customize your launcher experience" FontSize="15" Foreground="{DynamicResource TextSecondary}" 
-                      HorizontalAlignment="Left"/>
+           <TextBlock Text="Settings" Classes="Header"/>
+           <TextBlock Text="Customize your launcher experience" Classes="Description"/>
            
            <Grid ColumnDefinitions="175, *" Margin="0,15,0,0">
                <!-- SETTINGS TAB -->
