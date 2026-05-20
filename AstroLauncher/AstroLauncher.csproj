@@ -39,41 +39,24 @@
 
         <None Remove="Assets\Images\earth-icon.png" />
 
-        <AvaloniaResource Include="Assets\Images\earth-icon.png" />
-
         <None Remove="Assets\Images\minecraft-cube-icon.png" />
-
-        <AvaloniaResource Include="Assets\Images\minecraft-cube-icon.png" />
 
         <None Remove="Assets\Images\saturn-icon.png" />
 
-        <AvaloniaResource Include="Assets\Images\saturn-icon.png" />
-
         <None Remove="Assets\Images\settings-icon.png" />
-
-        <AvaloniaResource Include="Assets\Images\settings-icon.png" />
 
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
 
         <None Remove="Assets\Images\about-icon.png" />
 
-        <AvaloniaResource Include="Assets\Images\about-icon.png" />
-
         <None Remove="Assets\Images\house-icon.png" />
-
-        <AvaloniaResource Include="Assets\Images\house-icon.png" />
 
         <None Remove="Assets\Images\monitor-icon.png" />
 
-        <AvaloniaResource Include="Assets\Images\monitor-icon.png" />
-
         <None Remove="Assets\Images\search-icon.png" />
-
-        <AvaloniaResource Include="Assets\Images\search-icon.png" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Assets\Images\" />
       <Folder Include="\Assets\Images" />
       <Folder Include="\Assets\Fonts\*"/>
     </ItemGroup>
@@ -81,7 +64,6 @@
     <ItemGroup>
       <None Remove="Assets\backgound.png" />
       <None Remove="Assets\Fonts\Minecraft.ttf" />
-      <AvaloniaResource Include="Assets\Fonts\Minecraft.ttf" />
     </ItemGroup>
 
     <ItemGroup>

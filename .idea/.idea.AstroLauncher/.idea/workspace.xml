@@ -15,18 +15,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AstroLauncher/Styles/SettingsStyles.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/Colors.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/Colors.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/DiscoverView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/DiscoverView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/HomeView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/HomeView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Fonts/Minecraft.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/about-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/earth-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/house-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/minecraft-cube-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/monitor-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/saturn-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/search-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Images/settings-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/AstroLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/AstroLauncher.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,6 +232,7 @@
       <workItem from="1778586084619" duration="1601000" />
       <workItem from="1778675936365" duration="4146000" />
       <workItem from="1778920161920" duration="455000" />
+      <workItem from="1779280623349" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="Created Repository">
       <option name="closed" value="true" />
@@ -455,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778587456550</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: fully migrated to SVGs for all of the icons">
+      <option name="closed" value="true" />
+      <created>1779280738423</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1779280738423</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +476,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added navigations pannel" />
     <MESSAGE value="Added Assets folder and backgound image" />
     <MESSAGE value="Added Assets folder and background" />
     <MESSAGE value="Minecraft can now start and added new method in &quot;MainWindow.axaml.cs&quot;" />
@@ -490,7 +500,8 @@
     <MESSAGE value="fix: now using ListBox and DataTemplates rather than Buttons in Sidebars" />
     <MESSAGE value="fix: added Icons.axaml" />
     <MESSAGE value="fix: fixed all icons and added them to UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed all icons and added them to UI" />
+    <MESSAGE value="feat: fully migrated to SVGs for all of the icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fully migrated to SVGs for all of the icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

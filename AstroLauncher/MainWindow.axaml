@@ -21,10 +21,6 @@
         x:Class="AstroLauncher.MainWindow"
         Title="Astro Launcher">
         
-        <Window.Resources>
-                <conv:ViewTypeToBoolConverter x:Key="ViewTypeConverter"/>
-        </Window.Resources>
-        
         <Border BorderBrush="{DynamicResource AccentColor}"
                 BorderThickness="3" CornerRadius="10" ClipToBounds="True">
                 
