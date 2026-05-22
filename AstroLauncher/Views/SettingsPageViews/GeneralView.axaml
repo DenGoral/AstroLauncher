@@ -30,9 +30,6 @@
                                           OnContent="" OffContent=""/>
                         </Grid>
                         
-                        <Line Width="200" Height="1" Fill="{DynamicResource SurfaceCard}"
-                              HorizontalAlignment="Center"/>
-                        
                         <!-- MINIMIZE TO TRAY -->
                         <Grid ColumnDefinitions="Auto, *, Auto">
                             <Path Grid.Column="0" 
@@ -48,9 +45,6 @@
                                           OnContent="" OffContent=""/>
                         </Grid>
                         
-                        <Line Width="200" Height="1" Fill="{DynamicResource SurfaceCard}"
-                              HorizontalAlignment="Center"/>
-                        
                         <!-- LANGUAGE -->
                         <Grid ColumnDefinitions="Auto, *, Auto">
                             <Path Grid.Column="0" 
@@ -62,8 +56,7 @@
                                 <TextBlock Text="Choose your preferred language" Classes="Description"/>
                             </StackPanel>
                             
-                            <ComboBox Grid.Column="2" Foreground="{DynamicResource AccentColor}"
-                                      Classes="DefaultComboBox" Width="150" VerticalAlignment="Center"
+                            <ComboBox Grid.Column="2" Classes="DefaultComboBox" Width="150" VerticalAlignment="Center"
                                       ItemsSource="{Binding Languages}" SelectedItem="{Binding ChosenLanguage}"/>
                         </Grid>
                     </StackPanel>

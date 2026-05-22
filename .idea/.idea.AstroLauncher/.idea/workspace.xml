@@ -221,7 +221,8 @@
       <workItem from="1778675936365" duration="4146000" />
       <workItem from="1778920161920" duration="455000" />
       <workItem from="1779280623349" duration="1082000" />
-      <workItem from="1779387571223" duration="591000" />
+      <workItem from="1779387571223" duration="1410000" />
+      <workItem from="1779472230202" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Created Repository">
       <option name="closed" value="true" />
@@ -463,7 +464,31 @@
       <option name="project" value="LOCAL" />
       <updated>1779281676636</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml">
+      <option name="closed" value="true" />
+      <created>1779388211508</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1779388211508</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs">
+      <option name="closed" value="true" />
+      <created>1779388780180</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1779388780180</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs">
+      <option name="closed" value="true" />
+      <created>1779388915875</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1779388915876</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,9 +498,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added Assets folder and background" />
-    <MESSAGE value="Minecraft can now start and added new method in &quot;MainWindow.axaml.cs&quot;" />
-    <MESSAGE value="Redesing done. Added username textbox, new logo, space themed launcher now :)" />
     <MESSAGE value="Added version managing, minecraft launch too." />
     <MESSAGE value="Added new Lauch button and UI for Progress bar" />
     <MESSAGE value="Added system monitoring using python packegs &quot;psutil&quot; and &quot;cpuinfo&quot;." />
@@ -498,7 +520,10 @@
     <MESSAGE value="fix: fixed all icons and added them to UI" />
     <MESSAGE value="feat: fully migrated to SVGs for all of the icons" />
     <MESSAGE value="added ListBox to InstancesView.axaml and removed &quot;Fonts&quot; &amp; &quot;Images&quot; from &quot;Assets&quot; folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="added ListBox to InstancesView.axaml and removed &quot;Fonts&quot; &amp; &quot;Images&quot; from &quot;Assets&quot; folder." />
+    <MESSAGE value="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml" />
+    <MESSAGE value="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs" />
+    <MESSAGE value="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
