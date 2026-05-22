@@ -71,5 +71,9 @@
         <DependentUpon>HomeView.axaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
+      <Compile Update="TemplatedControls\SettingsItem.axaml.cs">
+        <DependentUpon>SettingsItem.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
     </ItemGroup>
 </Project>

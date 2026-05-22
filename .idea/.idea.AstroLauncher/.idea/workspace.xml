@@ -15,7 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +221,7 @@
       <workItem from="1778920161920" duration="455000" />
       <workItem from="1779280623349" duration="1082000" />
       <workItem from="1779387571223" duration="1410000" />
-      <workItem from="1779472230202" duration="298000" />
+      <workItem from="1779472230202" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Created Repository">
       <option name="closed" value="true" />
@@ -488,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779388915876</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="removed &quot;Line&quot; separators">
+      <option name="closed" value="true" />
+      <created>1779472749878</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1779472749878</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +505,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added version managing, minecraft launch too." />
     <MESSAGE value="Added new Lauch button and UI for Progress bar" />
     <MESSAGE value="Added system monitoring using python packegs &quot;psutil&quot; and &quot;cpuinfo&quot;." />
     <MESSAGE value="Added Username Save" />
@@ -523,7 +529,8 @@
     <MESSAGE value="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml" />
     <MESSAGE value="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs" />
     <MESSAGE value="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs" />
+    <MESSAGE value="removed &quot;Line&quot; separators" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed &quot;Line&quot; separators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,6 +11,7 @@
         <entry key="AstroLauncher/Styles/Colors.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/ListBoxStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/OtherStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
+        <entry key="AstroLauncher/Styles/SettingsItem.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/SettingsStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/TextBoxStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/DiscoverView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
