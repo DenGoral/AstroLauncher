@@ -26,4 +26,24 @@ public class SettingItem : TemplatedControl
         get => GetValue(DescriptionProperty);
         set => SetValue(DescriptionProperty, value);
     }
+    
+    // action content property
+    public static readonly StyledProperty<object> ActionContentProperty =
+        AvaloniaProperty.Register<SettingItem, object>(nameof(ActionContent));
+
+    public object ActionContent
+    {
+        get => GetValue(ActionContentProperty);
+        set => SetValue(ActionContentProperty, value);
+    }
+
+    // lower content property
+    public static readonly StyledProperty<object> LowerContentProperty =
+        AvaloniaProperty.Register<SettingItem, object>(nameof(LowerContent));
+
+    public object LowerContent
+    {
+        get => GetValue(LowerContentProperty);
+        set => SetValue(LowerContentProperty, value);
+    }
 }
