@@ -12,6 +12,7 @@
         <StyleInclude Source="/Styles/OtherStyles.axaml"/>
         <StyleInclude Source="/Styles/ListBoxStyles.axaml"/>
         <StyleInclude Source="/Styles/SettingsStyles.axaml"/>
+        <StyleInclude Source="/Controls/SettingItem.axaml" />
     </Application.Styles>
     
     <Application.Resources>

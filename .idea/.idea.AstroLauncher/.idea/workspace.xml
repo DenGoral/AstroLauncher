@@ -15,12 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingsItem.axaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingsItem.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +224,8 @@
       <workItem from="1778920161920" duration="455000" />
       <workItem from="1779280623349" duration="1082000" />
       <workItem from="1779387571223" duration="1410000" />
-      <workItem from="1779472230202" duration="1765000" />
+      <workItem from="1779472230202" duration="2459000" />
+      <workItem from="1779559311333" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="Created Repository">
       <option name="closed" value="true" />
@@ -508,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779473213800</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat: added SettigItem template control for easier settings scaling">
+      <option name="closed" value="true" />
+      <created>1779474111830</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1779474111830</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: added ActionContent and LowerContent for better placing">
+      <option name="closed" value="true" />
+      <created>1779474342812</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1779474342812</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,8 +533,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added system monitoring using python packegs &quot;psutil&quot; and &quot;cpuinfo&quot;." />
-    <MESSAGE value="Added Username Save" />
     <MESSAGE value="Added minecraft folder opening, settings button too" />
     <MESSAGE value="Added settings window" />
     <MESSAGE value="pre-mvvm migration" />
@@ -543,7 +556,9 @@
     <MESSAGE value="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs" />
     <MESSAGE value="removed &quot;Line&quot; separators" />
     <MESSAGE value="feat: added &quot;Control&quot; folder for &quot;Avalonia Template Control&quot; files. Added &quot;SettingsItem.axaml&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added &quot;Control&quot; folder for &quot;Avalonia Template Control&quot; files. Added &quot;SettingsItem.axaml&quot;" />
+    <MESSAGE value="feat: added SettigItem template control for easier settings scaling" />
+    <MESSAGE value="feat: added ActionContent and LowerContent for better placing" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added ActionContent and LowerContent for better placing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

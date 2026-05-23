@@ -5,6 +5,7 @@
       <map>
         <entry key="AstroLauncher/App.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Assets/Icons.axaml" value="AstroLauncher/AstroLauncher.csproj" />
+        <entry key="AstroLauncher/Controls/SettingItem.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/MainWindow.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/SettingsWindow.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Styles/ButtonStyles.axaml" value="AstroLauncher/AstroLauncher.csproj" />

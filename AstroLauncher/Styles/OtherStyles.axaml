@@ -16,6 +16,7 @@
     </Style>
     
     <Style Selector="ToggleSwitch.SettingsToggle">
-        
+        <Setter Property="Foreground" Value="{DynamicResource AccentColor}"/>
+        <Setter Property="OffContent" Value=""/> <Setter Property="OnContent" Value=""/>
     </Style>
 </Styles>

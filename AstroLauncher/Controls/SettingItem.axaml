@@ -9,18 +9,14 @@
     <Style Selector="controls|SettingItem">
         <Setter Property="Template">
             <ControlTemplate>
-                <Grid ColumnDefinitions="Auto, *, Auto" Margin="0,5">
-                    <Path Data="{TemplateBinding IconData}" 
-                          HorizontalAlignment="Left" 
-                          VerticalAlignment="Center"/>
-                    
-                    <StackPanel Grid.Column="1" Margin="10,5">
+                <Grid ColumnDefinitions="*, Auto" Margin="0,5">
+                    <StackPanel Grid.Column="0" Margin="10,5">
                         <TextBlock Text="{TemplateBinding Header}" FontSize="15"/>
                         <TextBlock Text="{TemplateBinding Description}" Classes="Description"/>
                     </StackPanel>
 
-                    <ContentPresenter Grid.Column="2" 
-                                      Content="{TemplateBinding Content}"
+                    <ContentPresenter Grid.Column="1" 
+                                      Content="{TemplateBinding ActionContent}"
                                       VerticalAlignment="Center"/>
                 </Grid>
             </ControlTemplate>
