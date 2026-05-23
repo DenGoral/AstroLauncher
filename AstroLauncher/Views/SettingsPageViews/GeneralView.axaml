@@ -6,34 +6,33 @@
              x:DataType="viewModels:GeneralViewModel"
              x:CompileBindings="True"
              x:Class="AstroLauncher.Views.SettingsPageViews.GeneralView">
+    
+    <StackPanel>
+        <!-- START ON STARTUP -->
+        <controls:SettingItem Header="Start on system startup" 
+                              Description="Launch Astro Launcher when your computer starts"
+                              IconData="{StaticResource HomeIcon}">
+            <controls:SettingItem.ActionContent>
+                <ToggleSwitch Classes="SettingsToggle"/>
+            </controls:SettingItem.ActionContent>
+        </controls:SettingItem>
 
-    <Border Classes="InnerSurface" CornerRadius="8" Background="{DynamicResource SurfaceCard}" Padding="16">
-        <StackPanel>
-            <!-- START ON STARTUP -->
-            <controls:SettingItem Header="Start on system startup" 
-                                  Description="Launch Astro Launcher when your computer starts">
-                <controls:SettingItem.ActionContent>
-                    <ToggleSwitch Classes="SettingsToggle"/>
-                </controls:SettingItem.ActionContent>
-            </controls:SettingItem>
+        <!-- MINIMIZE TO TRAY -->
+        <controls:SettingItem Header="Minimize to system tray" 
+                              Description="Close button will minimize the launcher to tray"
+                              IconData="{StaticResource HomeIcon}">
+            <controls:SettingItem.ActionContent>
+                <ToggleSwitch Classes="SettingsToggle"/>
+            </controls:SettingItem.ActionContent>
+        </controls:SettingItem>
 
-            <!-- MINIMIZE TO TRAY -->
-            <controls:SettingItem Header="Minimize to system tray" 
-                                  Description="Close button will minimize the launcher to tray">
-                <controls:SettingItem.ActionContent>
-                    <ToggleSwitch Classes="SettingsToggle"/>
-                </controls:SettingItem.ActionContent>
-            </controls:SettingItem>
-
-            <!-- LANGUAGE -->
-            <controls:SettingItem Header="Language" 
-                                  Description="Choose your preferred language">
-                <controls:SettingItem.ActionContent>
-                    <ComboBox Width="120" ItemsSource="{Binding Languages}" SelectedItem="{Binding ChosenLanguage}"/>
-                </controls:SettingItem.ActionContent>
-            </controls:SettingItem>
-            
-        </StackPanel>
-    </Border>
-
+        <!-- LANGUAGE -->
+        <controls:SettingItem Header="Language" 
+                              Description="Choose your preferred language"
+                              IconData="{StaticResource HomeIcon}">
+            <controls:SettingItem.ActionContent>
+                <ComboBox Width="120" ItemsSource="{Binding Languages}" SelectedItem="{Binding ChosenLanguage}"/>
+            </controls:SettingItem.ActionContent>
+        </controls:SettingItem>
+    </StackPanel>
 </UserControl>

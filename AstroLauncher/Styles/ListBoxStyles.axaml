@@ -6,6 +6,7 @@
         <Setter Property="BorderBrush" Value="{DynamicResource SurfaceCard}"/>
         <Setter Property="BorderThickness" Value="2"/>
         <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Margin" Value="5"/>
     </Style>
     
     <Style Selector="ListBoxItem">
