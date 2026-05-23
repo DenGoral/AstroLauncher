@@ -27,6 +27,16 @@ public class SettingItem : TemplatedControl
         set => SetValue(DescriptionProperty, value);
     }
     
+    // icon property
+    public static readonly StyledProperty<Geometry> IconDataProperty =
+        AvaloniaProperty.Register<SettingItem, Geometry>(nameof(IconData));
+
+    public Geometry IconData
+    {
+        get => GetValue(IconDataProperty);
+        set => SetValue(IconDataProperty, value);
+    }
+    
     // action content property
     public static readonly StyledProperty<object> ActionContentProperty =
         AvaloniaProperty.Register<SettingItem, object>(nameof(ActionContent));
