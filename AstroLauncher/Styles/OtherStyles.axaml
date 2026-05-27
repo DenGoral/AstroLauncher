@@ -8,7 +8,7 @@
         <Setter Property="MaxDropDownHeight" Value="200"/>
     </Style>
     
-    <Style Selector="ComboBox.DefaultComboBox /template/ Path#DropDownGlyph">
+    <Style Selector="ComboBox /template/ Path#DropDownGlyph">
         <Setter Property="Fill" Value="Red" />
     </Style>
     
