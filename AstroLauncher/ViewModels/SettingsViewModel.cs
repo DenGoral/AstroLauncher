@@ -17,6 +17,7 @@ public partial class SettingsViewModel : ViewModelBase
     {
         new GeneralViewModel(),
         new LauncherViewModel(),
+        new AboutViewModel(),
     };
 
     public SettingsViewModel()
