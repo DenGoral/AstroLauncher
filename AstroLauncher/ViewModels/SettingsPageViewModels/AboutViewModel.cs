@@ -11,7 +11,7 @@ public partial class AboutViewModel : ViewModelBase
 {
     public AboutViewModel()
     {
-        DisplayName = "General";
-        IconData = (StreamGeometry)Application.Current.FindResource("GeneralIcon");
+        DisplayName = "About";
+        IconData = (StreamGeometry)Application.Current.FindResource("AboutIcon");
     }
 }
