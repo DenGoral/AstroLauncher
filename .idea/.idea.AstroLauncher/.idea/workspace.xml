@@ -16,9 +16,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/SettingsStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/SettingsStyles.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +225,7 @@
       <workItem from="1779387571223" duration="1410000" />
       <workItem from="1779472230202" duration="2459000" />
       <workItem from="1779559311333" duration="2089000" />
-      <workItem from="1779873593538" duration="428000" />
+      <workItem from="1779873593538" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="Created Repository">
       <option name="closed" value="true" />
@@ -548,7 +547,55 @@
       <option name="project" value="LOCAL" />
       <updated>1779561502202</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="feat: center Header, Description and DefaultComboBox classes by Y axis">
+      <option name="closed" value="true" />
+      <created>1779874068031</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1779874068031</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: added new Style class &quot;Path.BaseIcon&quot;">
+      <option name="closed" value="true" />
+      <created>1779875502206</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1779875502206</updated>
+    </task>
+    <task id="LOCAL-00043" summary="refactor: removed unused style classes from ButtonStyles.axaml">
+      <option name="closed" value="true" />
+      <created>1779875623931</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1779875623931</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: added new StreamGeometry: &quot;PlusIcon&quot;">
+      <option name="closed" value="true" />
+      <created>1779875661413</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1779875661413</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: applied BaseIcon style class to all 'Path' tags in MainWindow.axaml">
+      <option name="closed" value="true" />
+      <created>1779875724498</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1779875724498</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: centered textBoxes">
+      <option name="closed" value="true" />
+      <created>1779875864591</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1779875864591</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,12 +605,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="migrated to MVVM and added sidebar buttons" />
-    <MESSAGE value="feat: added new Veiws: Home, Instances, Discover" />
-    <MESSAGE value="feat: settings are now showed as page in main area as Home, Discover and Instances Views and ViewModels" />
-    <MESSAGE value="feat: added new settings page, chnaged RAM alloctaion setting to Slider instead of NumericUpDown" />
-    <MESSAGE value="feat: redesigned sidebar" />
-    <MESSAGE value="forgot to push images from assets folder. Adding view models and views for settings too. Settings uopdate soon!" />
     <MESSAGE value="added icons for settings page" />
     <MESSAGE value="added GeneralViewModel.cs, LauncherViewModel.cs and other MVVM stuff for settings" />
     <MESSAGE value="started working on InstancesView.axaml for better minecraft installations controll" />
@@ -583,7 +624,13 @@
     <MESSAGE value="fix: wired up SettingItem.axaml in App.axaml" />
     <MESSAGE value="feat: added IconData property to SettingItem.axaml.cs" />
     <MESSAGE value="feat: added icons to settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added icons to settings" />
+    <MESSAGE value="feat: center Header, Description and DefaultComboBox classes by Y axis" />
+    <MESSAGE value="feat: added new Style class &quot;Path.BaseIcon&quot;" />
+    <MESSAGE value="refactor: removed unused style classes from ButtonStyles.axaml" />
+    <MESSAGE value="feat: added new StreamGeometry: &quot;PlusIcon&quot;" />
+    <MESSAGE value="feat: applied BaseIcon style class to all 'Path' tags in MainWindow.axaml" />
+    <MESSAGE value="feat: centered textBoxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: centered textBoxes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
