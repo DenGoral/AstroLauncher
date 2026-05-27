@@ -35,6 +35,5 @@
         <Setter Property="Height" Value="18"/>
         <Setter Property="HorizontalAlignment" Value="Center" />
         <Setter Property="VerticalAlignment" Value="Center" />
-
     </Style>
 </Styles>
