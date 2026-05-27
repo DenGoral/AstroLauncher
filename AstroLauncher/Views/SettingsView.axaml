@@ -45,8 +45,8 @@
                            </DataTemplate>
                            
                            <!-- About -->
-                           <DataTemplate DataType="{x:Type settingsPageViewModels:LauncherViewModel}">
-                               <settingsPageViews:LauncherView/>
+                           <DataTemplate DataType="{x:Type settingsPageViewModels:AboutViewModel}">
+                               <settingsPageViews:AboutView/>
                            </DataTemplate>
                        </ContentControl.DataTemplates>
                    </ContentControl>
