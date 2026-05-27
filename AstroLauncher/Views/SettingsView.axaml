@@ -43,6 +43,11 @@
                            <DataTemplate DataType="{x:Type settingsPageViewModels:LauncherViewModel}">
                                <settingsPageViews:LauncherView/>
                            </DataTemplate>
+                           
+                           <!-- About -->
+                           <DataTemplate DataType="{x:Type settingsPageViewModels:LauncherViewModel}">
+                               <settingsPageViews:LauncherView/>
+                           </DataTemplate>
                        </ContentControl.DataTemplates>
                    </ContentControl>
                </Border>

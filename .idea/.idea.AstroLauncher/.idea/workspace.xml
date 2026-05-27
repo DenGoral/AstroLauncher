@@ -15,9 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/SettingsStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/SettingsStyles.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/AstroLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/AstroLauncher.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,47 +226,8 @@
       <workItem from="1779387571223" duration="1410000" />
       <workItem from="1779472230202" duration="2459000" />
       <workItem from="1779559311333" duration="2089000" />
-      <workItem from="1779873593538" duration="2558000" />
-    </task>
-    <task id="LOCAL-00001" summary="Created Repository">
-      <option name="closed" value="true" />
-      <created>1774789117416</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1774789117416</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added button">
-      <option name="closed" value="true" />
-      <created>1774789271019</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1774789271019</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added button">
-      <option name="closed" value="true" />
-      <created>1774789387710</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1774789387710</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added navigations pannel">
-      <option name="closed" value="true" />
-      <created>1774792868043</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1774792868043</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added Assets folder and backgound image">
-      <option name="closed" value="true" />
-      <created>1774793030342</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1774793030342</updated>
+      <workItem from="1779873593538" duration="2729000" />
+      <workItem from="1779888336090" duration="795000" />
     </task>
     <task id="LOCAL-00006" summary="Added Assets folder and background">
       <option name="closed" value="true" />
@@ -595,7 +557,71 @@
       <option name="project" value="LOCAL" />
       <updated>1779875864591</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="refactor: removed setter &quot;VerticalAlignment&quot; from TextBlock.Header and TextBlock.Description">
+      <option name="closed" value="true" />
+      <created>1779876279338</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1779876279338</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: added &quot;Create New&quot; button">
+      <option name="closed" value="true" />
+      <created>1779876303418</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1779876303418</updated>
+    </task>
+    <task id="LOCAL-00049" summary="refactor: removed space">
+      <option name="closed" value="true" />
+      <created>1779888549104</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1779888549105</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat: added new SettingsPageViewModel">
+      <option name="closed" value="true" />
+      <created>1779888840335</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1779888840336</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat: added AboutView.axaml">
+      <option name="closed" value="true" />
+      <created>1779889023241</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889023241</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: added AboutView.axaml.cs">
+      <option name="closed" value="true" />
+      <created>1779889035548</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889035548</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat: added AboutViewModel.cs">
+      <option name="closed" value="true" />
+      <created>1779889060390</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889060390</updated>
+    </task>
+    <task id="LOCAL-00054" summary="refactor: removed unused space">
+      <option name="closed" value="true" />
+      <created>1779889117986</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889117986</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,14 +631,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added icons for settings page" />
-    <MESSAGE value="added GeneralViewModel.cs, LauncherViewModel.cs and other MVVM stuff for settings" />
-    <MESSAGE value="started working on InstancesView.axaml for better minecraft installations controll" />
-    <MESSAGE value="feat: added resizing" />
-    <MESSAGE value="fix: now using ListBox and DataTemplates rather than Buttons in Sidebars" />
-    <MESSAGE value="fix: added Icons.axaml" />
-    <MESSAGE value="fix: fixed all icons and added them to UI" />
-    <MESSAGE value="feat: fully migrated to SVGs for all of the icons" />
     <MESSAGE value="added ListBox to InstancesView.axaml and removed &quot;Fonts&quot; &amp; &quot;Images&quot; from &quot;Assets&quot; folder." />
     <MESSAGE value="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml" />
     <MESSAGE value="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs" />
@@ -630,7 +648,15 @@
     <MESSAGE value="feat: added new StreamGeometry: &quot;PlusIcon&quot;" />
     <MESSAGE value="feat: applied BaseIcon style class to all 'Path' tags in MainWindow.axaml" />
     <MESSAGE value="feat: centered textBoxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: centered textBoxes" />
+    <MESSAGE value="refactor: removed setter &quot;VerticalAlignment&quot; from TextBlock.Header and TextBlock.Description" />
+    <MESSAGE value="feat: added &quot;Create New&quot; button" />
+    <MESSAGE value="refactor: removed space" />
+    <MESSAGE value="feat: added new SettingsPageViewModel" />
+    <MESSAGE value="feat: added AboutView.axaml" />
+    <MESSAGE value="feat: added AboutView.axaml.cs" />
+    <MESSAGE value="feat: added AboutViewModel.cs" />
+    <MESSAGE value="refactor: removed unused space" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: removed unused space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

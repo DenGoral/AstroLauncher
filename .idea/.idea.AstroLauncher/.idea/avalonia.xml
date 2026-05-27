@@ -18,6 +18,7 @@
         <entry key="AstroLauncher/Views/DiscoverView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/HomeView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/InstancesView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
+        <entry key="AstroLauncher/Views/SettingsPageViews/AboutView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/SettingsPageViews/LauncherView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/SettingsView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
