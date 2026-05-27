@@ -1,70 +1,19 @@
 <Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
-    <Style Selector="Button.ControlBtn">
-        <Setter Property="CornerRadius" Value="50"/>
-        <Setter Property="VerticalAlignment" Value="Top"/>
-        <Setter Property="HorizontalAlignment" Value="Right"/>
-        <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
-        <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Opacity" Value="1"/>
-    </Style>
-    
-    <Style Selector="Button.AccountBtn">
+    <Style Selector="Button.BaseBtn">
         <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
         <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
-        <Setter Property="Width" Value="200"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="CornerRadius" Value="8"/>
         <Setter Property="Padding" Value="5"/>
-    </Style>
-    
-    <Style Selector="Button.MenuBtn:pointerover /template/ ContentPresenter">
-        <Setter Property="Foreground" Value="{DynamicResource AccentColor}"/>
-        <Setter Property="Background" Value="Transparent"/>
-    </Style>
-    
-    <Style Selector="Button.BaseNavBtn">
-        <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="CornerRadius" Value="10"/>
-        <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="Transitions">
             <Transitions>
-                <BrushTransition Property="Background" Duration="0:0:0.2"/>
+                <BrushTransition Property="Background" Duration="0:0:0.15"/>
+                <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.075" Easing="CubicEaseOut"/>
             </Transitions>
         </Setter>
-    </Style>
-
-    <!-- MAIN SIDEBAR -->
-    <Style Selector="Button.SidebarBtn">
-        <Setter Property="Width" Value="110"/>
-        <Setter Property="Height" Value="100"/>
-
-        <Style Selector="^.active">
-            <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
-        </Style>
-    </Style>
-    
-    <Style Selector="Button.SidebarBtn Image">
-        <Setter Property="Width" Value="50"/>
-        <Setter Property="Height" Value="50"/>
-    </Style>
-    
-    <Style Selector="Button.SidebarBtn TextBlock">
-        <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="HorizontalAlignment" Value="Center"/>
-        <Setter Property="FontSize" Value="15"/>
-    </Style> 
-
-    <!-- SETTINGS SIDEBAR -->
-    <Style Selector="Button.SettingsSidebarBtn">
-        <Setter Property="Width" Value="150"/>
-        <Setter Property="Height" Value="50"/>
-        <Style Selector="^.active">
-            <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
-        </Style>
     </Style>
 </Styles>
