@@ -13,5 +13,5 @@
     
     <!-- OTHER ICONS -->
     <StreamGeometry x:Key="SearchIcon">m21 21-4.34-4.34</StreamGeometry>
-    
+    <StreamGeometry x:Key="PlusIcon">M5 12h14 M12 5v14</StreamGeometry>
 </ResourceDictionary>
