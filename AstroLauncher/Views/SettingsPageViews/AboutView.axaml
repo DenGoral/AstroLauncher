@@ -1,0 +1,11 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:AstroLauncher.ViewModels"
+             xmlns:viewModels="clr-namespace:AstroLauncher.ViewModels.SettingsPageViewModels"
+             xmlns:controls="clr-namespace:AstroLauncher.Controls"
+             x:DataType="viewModels:AboutViewModel"
+             x:CompileBindings="True"
+             x:Class="AstroLauncher.Views.SettingsPageViews.AboutView">
+    
+    <TextBlock Classes="Header" Text="About"/>
+</UserControl>
