@@ -16,22 +16,19 @@
            
            <Grid ColumnDefinitions="175, *" Margin="0,15,0,0">
                <!-- SETTINGS TAB -->
-               <Border Grid.Column="0" Classes="InnerSurface">
-                   
-                   <ListBox ItemsSource="{Binding Categories}"
-                            SelectedItem="{Binding SelectedCategory}"
-                            Classes="BaseListBox">
+               <ListBox ItemsSource="{Binding Categories}"
+                        SelectedItem="{Binding SelectedCategory}"
+                        Classes="BaseListBox">
                        
-                       <ListBox.ItemTemplate>
-                           <DataTemplate x:DataType="vm:ViewModelBase">
-                               <StackPanel Orientation="Horizontal" Spacing="12">
-                                   <PathIcon Data="{Binding IconData}" Width="18" Height="18"/>
-                                   <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center"/>
-                               </StackPanel>
-                           </DataTemplate>
-                       </ListBox.ItemTemplate>
-                   </ListBox>
-               </Border>
+                   <ListBox.ItemTemplate>
+                       <DataTemplate x:DataType="vm:ViewModelBase">
+                           <StackPanel Orientation="Horizontal" Spacing="12">
+                               <PathIcon Data="{Binding IconData}" Width="18" Height="18"/>
+                               <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center"/>
+                           </StackPanel>
+                       </DataTemplate>
+                   </ListBox.ItemTemplate>
+               </ListBox>
                
                <!-- SETTINGS MAIN AREA -->
                <Border Grid.Column="1">

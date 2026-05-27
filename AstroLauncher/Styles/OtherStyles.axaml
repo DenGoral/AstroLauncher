@@ -6,6 +6,11 @@
         <Setter Property="Background" Value="{DynamicResource SurfaceSecondary}"/>
         <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
         <Setter Property="MaxDropDownHeight" Value="200"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    
+    <Style Selector="ComboBox.DefaultComboBox /template/ Path#DropDownGlyph">
+        <Setter Property="Fill" Value="Red" />
     </Style>
     
     <Style Selector="Border.InnerSurface">
