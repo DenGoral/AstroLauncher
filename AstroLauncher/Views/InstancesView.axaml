@@ -32,6 +32,11 @@
                     </StackPanel> 
                 </Button>
             </Grid>
+            
+            <!-- FILTER BUTTONS -->
+            <StackPanel>
+                
+            </StackPanel>
                           
             <ScrollViewer Margin="0,10,0,0">
                 <ListBox Background="Transparent">
