@@ -22,5 +22,13 @@
                 <ResourceInclude Source="/Assets/Icons.axaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+
+            <SolidColorBrush x:Key="ToggleSwitchFillOn" Color="{DynamicResource MyAccentColorNative}" />
+            <SolidColorBrush x:Key="ToggleSwitchFillOnPointerOver" Color="{DynamicResource MyAccentColorNative}" />
+            <SolidColorBrush x:Key="ToggleSwitchFillOnPressed" Color="{DynamicResource MyAccentColorNative}" />
+    
+            <SolidColorBrush x:Key="ToggleSwitchStrokeOn" Color="{DynamicResource MyAccentColorNative}" />
+            <SolidColorBrush x:Key="ToggleSwitchStrokeOnPointerOver" Color="{DynamicResource MyAccentColorNative}" />
+            <SolidColorBrush x:Key="ToggleSwitchStrokeOnPressed" Color="{DynamicResource MyAccentColorNative}" />
     </Application.Resources>
 </Application>
