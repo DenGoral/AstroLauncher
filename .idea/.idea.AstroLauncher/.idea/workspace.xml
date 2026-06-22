@@ -15,9 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/avalonia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AstroLauncher/NewFile1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/AstroLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/AstroLauncher.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +69,7 @@
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///var/folders/9s/8cdv544s6xjbcsmsh7dkj0180000gp/T/SourceGeneratedDocuments/77BF9F574EDA5D8D1BFD92E3/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AstroLauncher.ViewModels.SettingsViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -108,6 +108,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;DockerIgnore&quot;
+    ]
   }
 }</component>
   <component name="RunManager" selected=".NET Project.AstroLauncher">
@@ -227,47 +232,9 @@
       <workItem from="1779472230202" duration="2459000" />
       <workItem from="1779559311333" duration="2089000" />
       <workItem from="1779873593538" duration="2729000" />
-      <workItem from="1779888336090" duration="795000" />
-    </task>
-    <task id="LOCAL-00006" summary="Added Assets folder and background">
-      <option name="closed" value="true" />
-      <created>1774793101101</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1774793101101</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Minecraft can now start and added new method in &quot;MainWindow.axaml.cs&quot;">
-      <option name="closed" value="true" />
-      <created>1774796027405</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1774796027405</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Redesing done. Added username textbox, new logo, space themed launcher now :)">
-      <option name="closed" value="true" />
-      <created>1774889041661</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1774889041661</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added version managing, minecraft launch too.">
-      <option name="closed" value="true" />
-      <created>1775061708062</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1775061708062</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added new Lauch button and UI for Progress bar">
-      <option name="closed" value="true" />
-      <created>1775065616341</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1775065616342</updated>
+      <workItem from="1779888336090" duration="1792000" />
+      <workItem from="1781702243964" duration="842000" />
+      <workItem from="1782126656298" duration="613000" />
     </task>
     <task id="LOCAL-00011" summary="Added system monitoring using python packegs &quot;psutil&quot; and &quot;cpuinfo&quot;.">
       <option name="closed" value="true" />
@@ -621,7 +588,47 @@
       <option name="project" value="LOCAL" />
       <updated>1779889117986</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="feat: added DataTemplate for &quot;About&quot; settings page">
+      <option name="closed" value="true" />
+      <created>1779889186606</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889186607</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat: added &quot;About&quot; connections">
+      <option name="closed" value="true" />
+      <created>1779889209232</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889209232</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: added new AboutIcon">
+      <option name="closed" value="true" />
+      <created>1779889503714</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889503714</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix: corrected DataTemplate Data">
+      <option name="closed" value="true" />
+      <created>1779889530143</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889530143</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix: connected &quot;AboutViewModel&quot;">
+      <option name="closed" value="true" />
+      <created>1779889741537</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1779889741537</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,11 +638,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added ListBox to InstancesView.axaml and removed &quot;Fonts&quot; &amp; &quot;Images&quot; from &quot;Assets&quot; folder." />
-    <MESSAGE value="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml" />
-    <MESSAGE value="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs" />
-    <MESSAGE value="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs" />
-    <MESSAGE value="removed &quot;Line&quot; separators" />
     <MESSAGE value="feat: added &quot;Control&quot; folder for &quot;Avalonia Template Control&quot; files. Added &quot;SettingsItem.axaml&quot;" />
     <MESSAGE value="feat: added SettigItem template control for easier settings scaling" />
     <MESSAGE value="feat: added ActionContent and LowerContent for better placing" />
@@ -656,7 +658,12 @@
     <MESSAGE value="feat: added AboutView.axaml.cs" />
     <MESSAGE value="feat: added AboutViewModel.cs" />
     <MESSAGE value="refactor: removed unused space" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: removed unused space" />
+    <MESSAGE value="feat: added DataTemplate for &quot;About&quot; settings page" />
+    <MESSAGE value="feat: added &quot;About&quot; connections" />
+    <MESSAGE value="feat: added new AboutIcon" />
+    <MESSAGE value="fix: corrected DataTemplate Data" />
+    <MESSAGE value="fix: connected &quot;AboutViewModel&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: connected &quot;AboutViewModel&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
