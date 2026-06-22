@@ -15,9 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AstroLauncher/NewFile1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/ButtonStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/ButtonStyles.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,39 +234,7 @@
       <workItem from="1779873593538" duration="2729000" />
       <workItem from="1779888336090" duration="1792000" />
       <workItem from="1781702243964" duration="842000" />
-      <workItem from="1782126656298" duration="613000" />
-    </task>
-    <task id="LOCAL-00011" summary="Added system monitoring using python packegs &quot;psutil&quot; and &quot;cpuinfo&quot;.">
-      <option name="closed" value="true" />
-      <created>1775579434750</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1775579434750</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added Username Save">
-      <option name="closed" value="true" />
-      <created>1775980207192</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1775980207192</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added minecraft folder opening, settings button too">
-      <option name="closed" value="true" />
-      <created>1775992990837</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1775992990837</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added settings window">
-      <option name="closed" value="true" />
-      <created>1776062574136</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1776062574136</updated>
+      <workItem from="1782126656298" duration="1580000" />
     </task>
     <task id="LOCAL-00015" summary="pre-mvvm migration">
       <option name="closed" value="true" />
@@ -628,7 +596,39 @@
       <option name="project" value="LOCAL" />
       <updated>1779889741537</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="reafctor: removed all unused files &amp; spaces">
+      <option name="closed" value="true" />
+      <created>1782127356892</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1782127356892</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: added new &quot;SecondaryBtn&quot; style">
+      <option name="closed" value="true" />
+      <created>1782127719805</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1782127719805</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat: added stack panel to hold filter bvuttons">
+      <option name="closed" value="true" />
+      <created>1782127736205</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1782127736205</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix: removed unused file">
+      <option name="closed" value="true" />
+      <created>1782127782448</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1782127782448</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,10 +638,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added &quot;Control&quot; folder for &quot;Avalonia Template Control&quot; files. Added &quot;SettingsItem.axaml&quot;" />
-    <MESSAGE value="feat: added SettigItem template control for easier settings scaling" />
-    <MESSAGE value="feat: added ActionContent and LowerContent for better placing" />
-    <MESSAGE value="fix: wired up SettingItem.axaml in App.axaml" />
     <MESSAGE value="feat: added IconData property to SettingItem.axaml.cs" />
     <MESSAGE value="feat: added icons to settings" />
     <MESSAGE value="feat: center Header, Description and DefaultComboBox classes by Y axis" />
@@ -663,7 +659,11 @@
     <MESSAGE value="feat: added new AboutIcon" />
     <MESSAGE value="fix: corrected DataTemplate Data" />
     <MESSAGE value="fix: connected &quot;AboutViewModel&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: connected &quot;AboutViewModel&quot;" />
+    <MESSAGE value="reafctor: removed all unused files &amp; spaces" />
+    <MESSAGE value="feat: added new &quot;SecondaryBtn&quot; style" />
+    <MESSAGE value="feat: added stack panel to hold filter bvuttons" />
+    <MESSAGE value="fix: removed unused file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: removed unused file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
