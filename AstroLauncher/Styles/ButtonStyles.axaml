@@ -36,6 +36,7 @@
     
     <Style Selector="ToggleButton.SecondaryBtn:pressed /template/ ContentPresenter">
         <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
+        <Setter Property="Background" Value="{DynamicResource SurfaceCard}"/>
         <Setter Property="BorderThickness" Value="0,0,0,2"/>
         <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/>
     </Style>
