@@ -17,7 +17,7 @@
         </Setter>
     </Style>
     
-    <Style Selector="Button.SecondaryBtn">
+    <Style Selector="ToggleButton.SecondaryBtn">
         <Setter Property="Background" Value="{DynamicResource SurfaceCard}"/>
         <Setter Property="Foreground" Value="{DynamicResource TextSecondary}"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
@@ -34,7 +34,7 @@
         </Setter>
     </Style>
     
-    <Style Selector="Button.SecondaryBtn:pressed /template/ ContentPresenter">
+    <Style Selector="ToggleButton.SecondaryBtn:pressed /template/ ContentPresenter">
         <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
         <Setter Property="BorderThickness" Value="0,0,0,2"/>
         <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/>
