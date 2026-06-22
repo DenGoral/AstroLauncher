@@ -9,13 +9,15 @@
     <Style Selector="controls|SettingItem">
         <Setter Property="Template">
             <ControlTemplate>
-                <Border Classes="InnerSurface" Margin="5">
+                <Border Classes="InnerSurface" Margin="5" Padding="16,12">
                     <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="40, *, Auto">
                         <Path Grid.Row="0" Grid.Column="0" 
                               Data="{TemplateBinding IconData}" 
                               HorizontalAlignment="Left"
                               VerticalAlignment="Center"
-                              Margin="0,4,0,0"/>
+                              Margin="0,4,0,0"
+                              Stroke="White" Stretch="Uniform"
+                              Width="24" Height="24"/>
             
                         <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,5,0">
                             <TextBlock Text="{TemplateBinding Header}" FontSize="14" FontWeight="Medium"/>
