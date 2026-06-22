@@ -16,8 +16,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/ButtonStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/ButtonStyles.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,79 +235,7 @@
       <workItem from="1779873593538" duration="2729000" />
       <workItem from="1779888336090" duration="1792000" />
       <workItem from="1781702243964" duration="842000" />
-      <workItem from="1782126656298" duration="1580000" />
-    </task>
-    <task id="LOCAL-00015" summary="pre-mvvm migration">
-      <option name="closed" value="true" />
-      <created>1776499820193</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1776499820194</updated>
-    </task>
-    <task id="LOCAL-00016" summary="migrated to MVVM and added sidebar buttons">
-      <option name="closed" value="true" />
-      <created>1776501398700</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1776501398700</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat: added new Veiws: Home, Instances, Discover">
-      <option name="closed" value="true" />
-      <created>1776594898868</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1776594898868</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat: settings are now showed as page in main area as Home, Discover and Instances Views and ViewModels">
-      <option name="closed" value="true" />
-      <created>1776791639891</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1776791639891</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat: added new settings page, chnaged RAM alloctaion setting to Slider instead of NumericUpDown">
-      <option name="closed" value="true" />
-      <created>1776793331639</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1776793331639</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat: redesigned sidebar">
-      <option name="closed" value="true" />
-      <created>1777302666047</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1777302666047</updated>
-    </task>
-    <task id="LOCAL-00021" summary="forgot to push images from assets folder. Adding view models and views for settings too. Settings uopdate soon!">
-      <option name="closed" value="true" />
-      <created>1777642028146</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1777642028147</updated>
-    </task>
-    <task id="LOCAL-00022" summary="added icons for settings page">
-      <option name="closed" value="true" />
-      <created>1777709441259</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1777709441260</updated>
-    </task>
-    <task id="LOCAL-00023" summary="added GeneralViewModel.cs, LauncherViewModel.cs and other MVVM stuff for settings">
-      <option name="closed" value="true" />
-      <created>1777917208989</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1777917208990</updated>
+      <workItem from="1782126656298" duration="4641000" />
     </task>
     <task id="LOCAL-00024" summary="started working on InstancesView.axaml for better minecraft installations controll">
       <option name="closed" value="true" />
@@ -628,7 +557,79 @@
       <option name="project" value="LOCAL" />
       <updated>1782127782448</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="refactor: changed &quot;FilterButtons&quot; to &quot;SecondaryBtn&quot; style class and added &quot;pressed&quot; ContentPresenter">
+      <option name="closed" value="true" />
+      <created>1782128312921</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1782128312921</updated>
+    </task>
+    <task id="LOCAL-00065" summary="fix: all &quot;SecondartyBtn&quot; classes are now ToggleButons">
+      <option name="closed" value="true" />
+      <created>1782128364500</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1782128364501</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix: changed Buttons to ToggleButtons">
+      <option name="closed" value="true" />
+      <created>1782128377268</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1782128377268</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: added Background Setter Property to &quot;pressed&quot;">
+      <option name="closed" value="true" />
+      <created>1782128447632</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1782128447632</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix: &quot;pressed&quot; changed to &quot;checked&quot;">
+      <option name="closed" value="true" />
+      <created>1782128563344</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1782128563344</updated>
+    </task>
+    <task id="LOCAL-00069" summary="extra commit! one whole month w out em eh">
+      <option name="closed" value="true" />
+      <created>1782128776536</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1782128776536</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat: overiden OS SytemAccentColor to match the app one">
+      <option name="closed" value="true" />
+      <created>1782130227563</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1782130227563</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix: added paddings and added stroke/stretch/width/height to Path">
+      <option name="closed" value="true" />
+      <created>1782130275059</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1782130275060</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fixed spacing issues">
+      <option name="closed" value="true" />
+      <created>1782130289992</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1782130289992</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,15 +639,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added IconData property to SettingItem.axaml.cs" />
-    <MESSAGE value="feat: added icons to settings" />
-    <MESSAGE value="feat: center Header, Description and DefaultComboBox classes by Y axis" />
-    <MESSAGE value="feat: added new Style class &quot;Path.BaseIcon&quot;" />
-    <MESSAGE value="refactor: removed unused style classes from ButtonStyles.axaml" />
-    <MESSAGE value="feat: added new StreamGeometry: &quot;PlusIcon&quot;" />
-    <MESSAGE value="feat: applied BaseIcon style class to all 'Path' tags in MainWindow.axaml" />
-    <MESSAGE value="feat: centered textBoxes" />
-    <MESSAGE value="refactor: removed setter &quot;VerticalAlignment&quot; from TextBlock.Header and TextBlock.Description" />
     <MESSAGE value="feat: added &quot;Create New&quot; button" />
     <MESSAGE value="refactor: removed space" />
     <MESSAGE value="feat: added new SettingsPageViewModel" />
@@ -663,7 +655,16 @@
     <MESSAGE value="feat: added new &quot;SecondaryBtn&quot; style" />
     <MESSAGE value="feat: added stack panel to hold filter bvuttons" />
     <MESSAGE value="fix: removed unused file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: removed unused file" />
+    <MESSAGE value="refactor: changed &quot;FilterButtons&quot; to &quot;SecondaryBtn&quot; style class and added &quot;pressed&quot; ContentPresenter" />
+    <MESSAGE value="fix: all &quot;SecondartyBtn&quot; classes are now ToggleButons" />
+    <MESSAGE value="fix: changed Buttons to ToggleButtons" />
+    <MESSAGE value="feat: added Background Setter Property to &quot;pressed&quot;" />
+    <MESSAGE value="fix: &quot;pressed&quot; changed to &quot;checked&quot;" />
+    <MESSAGE value="extra commit! one whole month w out em eh" />
+    <MESSAGE value="feat: overiden OS SytemAccentColor to match the app one" />
+    <MESSAGE value="fix: added paddings and added stroke/stretch/width/height to Path" />
+    <MESSAGE value="fixed spacing issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed spacing issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
