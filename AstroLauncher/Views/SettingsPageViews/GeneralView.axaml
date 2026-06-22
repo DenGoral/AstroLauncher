@@ -14,7 +14,7 @@
             <!-- START ON STARTUP -->
             <controls:SettingItem Header="Start on system startup" 
                                   Description="Launch Astro Launcher when your computer starts"
-                                  IconData="{StaticResource HomeIcon}">
+                                  IconData="{StaticResource PowerIcon}">
                 <controls:SettingItem.ActionContent>
                     <ToggleSwitch Classes="SettingsToggle"/>
                 </controls:SettingItem.ActionContent>
@@ -23,7 +23,7 @@
             <!-- MINIMIZE TO TRAY -->
             <controls:SettingItem Header="Minimize to system tray" 
                                   Description="Close button will minimize the launcher to tray"
-                                  IconData="{StaticResource HomeIcon}">
+                                  IconData="{StaticResource SquareIcon}">
                 <controls:SettingItem.ActionContent>
                     <ToggleSwitch Classes="SettingsToggle"/>
                 </controls:SettingItem.ActionContent>
@@ -32,7 +32,7 @@
             <!-- LANGUAGE -->
             <controls:SettingItem Header="Language" 
                                   Description="Choose your preferred language"
-                                  IconData="{StaticResource HomeIcon}">
+                                  IconData="{StaticResource LangIcon}">
                 <controls:SettingItem.ActionContent>
                     <ComboBox Width="120" ItemsSource="{Binding Languages}" SelectedItem="{Binding ChosenLanguage}"/>
                 </controls:SettingItem.ActionContent>
