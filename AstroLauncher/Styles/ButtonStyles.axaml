@@ -18,18 +18,25 @@
     </Style>
     
     <Style Selector="Button.SecondaryBtn">
-        <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
-        <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
+        <Setter Property="Background" Value="{DynamicResource SurfaceCard}"/>
+        <Setter Property="Foreground" Value="{DynamicResource TextSecondary}"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="FontWeight" Value="SemiBold"/>
-        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="CornerRadius" Value="10"/>
         <Setter Property="Padding" Value="5"/>
+        
         <Setter Property="Transitions">
             <Transitions>
                 <BrushTransition Property="Background" Duration="0:0:0.15"/>
                 <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.075" Easing="CubicEaseOut"/>
             </Transitions>
         </Setter>
+    </Style>
+    
+    <Style Selector="Button.SecondaryBtn:pressed /template/ ContentPresenter">
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimary}"/>
+        <Setter Property="BorderThickness" Value="0,0,0,2"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/>
     </Style>
 </Styles>
