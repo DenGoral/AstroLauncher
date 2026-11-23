@@ -23,7 +23,13 @@
                    <ListBox.ItemTemplate>
                        <DataTemplate x:DataType="vm:ViewModelBase">
                            <StackPanel Orientation="Horizontal" Spacing="12">
-                               <PathIcon Data="{Binding IconData}" Width="18" Height="18"/>
+                               <Path Data="{Binding IconData}"
+                                     Width="18" Height="18"
+                                     Stretch="Uniform"
+                                     Stroke="White"
+                                     StrokeThickness="2"
+                                     StrokeLineCap="Round"
+                                     StrokeJoin="Round"/>
                                <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center"/>
                            </StackPanel>
                        </DataTemplate>
