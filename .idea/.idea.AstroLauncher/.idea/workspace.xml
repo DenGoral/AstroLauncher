@@ -14,7 +14,12 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +44,12 @@
     &quot;assignee&quot;: &quot;ImAstroth&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ImAstroth/AstroLauncher.git&quot;,
-    &quot;accountId&quot;: &quot;ac7f866c-103e-4484-9d08-6daffcd282c9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DenGoral/AstroLauncher",
+    "accountId": "ac7f866c-103e-4484-9d08-6daffcd282c9"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/892a4ee261564664b543c292de8d242f226a00/bf/04ab4467/CompiledBinding.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +70,7 @@
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///var/folders/9s/8cdv544s6xjbcsmsh7dkj0180000gp/T/SourceGeneratedDocuments/77BF9F574EDA5D8D1BFD92E3/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AstroLauncher.ViewModels.SettingsViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -231,15 +237,7 @@
       <workItem from="1781702243964" duration="842000" />
       <workItem from="1782126656298" duration="4756000" />
       <workItem from="1793896674942" duration="154000" />
-      <workItem from="1795440370550" duration="980000" />
-    </task>
-    <task id="LOCAL-00031" summary="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml">
-      <option name="closed" value="true" />
-      <created>1779388211508</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1779388211508</updated>
+      <workItem from="1795440370550" duration="1982000" />
     </task>
     <task id="LOCAL-00032" summary="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs">
       <option name="closed" value="true" />
@@ -625,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795441318908</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="fix: fixed more bugs connected with icons">
+      <option name="closed" value="true" />
+      <created>1795441446266</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1795441446266</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +641,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added DataTemplate for &quot;About&quot; settings page" />
     <MESSAGE value="feat: added &quot;About&quot; connections" />
     <MESSAGE value="feat: added new AboutIcon" />
     <MESSAGE value="fix: corrected DataTemplate Data" />
@@ -660,7 +665,8 @@
     <MESSAGE value="fix: changed icons' StreamGeometry" />
     <MESSAGE value="fix: fixed icons not showing up properly in SettingItem.axaml" />
     <MESSAGE value="fix: fixed icons' behaviuor" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed icons' behaviuor" />
+    <MESSAGE value="fix: fixed more bugs connected with icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed more bugs connected with icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
