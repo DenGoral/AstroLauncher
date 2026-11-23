@@ -16,9 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,6 @@
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///var/folders/9s/8cdv544s6xjbcsmsh7dkj0180000gp/T/SourceGeneratedDocuments/77BF9F574EDA5D8D1BFD92E3/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AstroLauncher.ViewModels.SettingsViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -235,39 +232,9 @@
       <workItem from="1779873593538" duration="2729000" />
       <workItem from="1779888336090" duration="1792000" />
       <workItem from="1781702243964" duration="842000" />
-      <workItem from="1782126656298" duration="4641000" />
-    </task>
-    <task id="LOCAL-00024" summary="started working on InstancesView.axaml for better minecraft installations controll">
-      <option name="closed" value="true" />
-      <created>1778088013098</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1778088013099</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat: added resizing">
-      <option name="closed" value="true" />
-      <created>1778090556376</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1778090556376</updated>
-    </task>
-    <task id="LOCAL-00026" summary="fix: now using ListBox and DataTemplates rather than Buttons in Sidebars">
-      <option name="closed" value="true" />
-      <created>1778163573116</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1778163573116</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fix: added Icons.axaml">
-      <option name="closed" value="true" />
-      <created>1778522793648</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1778522793648</updated>
+      <workItem from="1782126656298" duration="4756000" />
+      <workItem from="1793896674942" duration="154000" />
+      <workItem from="1795440370550" duration="644000" />
     </task>
     <task id="LOCAL-00028" summary="fix: fixed all icons and added them to UI">
       <option name="closed" value="true" />
@@ -629,7 +596,39 @@
       <option name="project" value="LOCAL" />
       <updated>1782130289992</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="fix: changed all icons to their own">
+      <option name="closed" value="true" />
+      <created>1782131432066</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1782131432066</updated>
+    </task>
+    <task id="LOCAL-00074" summary="feat: added 3 more icons">
+      <option name="closed" value="true" />
+      <created>1782131442319</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1782131442319</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fix: added StrokeThockness">
+      <option name="closed" value="true" />
+      <created>1782131463190</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1782131463190</updated>
+    </task>
+    <task id="LOCAL-00076" summary="another free commmit">
+      <option name="closed" value="true" />
+      <created>1782131473899</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1782131473899</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,10 +638,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added &quot;Create New&quot; button" />
-    <MESSAGE value="refactor: removed space" />
-    <MESSAGE value="feat: added new SettingsPageViewModel" />
-    <MESSAGE value="feat: added AboutView.axaml" />
     <MESSAGE value="feat: added AboutView.axaml.cs" />
     <MESSAGE value="feat: added AboutViewModel.cs" />
     <MESSAGE value="refactor: removed unused space" />
@@ -664,7 +659,11 @@
     <MESSAGE value="feat: overiden OS SytemAccentColor to match the app one" />
     <MESSAGE value="fix: added paddings and added stroke/stretch/width/height to Path" />
     <MESSAGE value="fixed spacing issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed spacing issues" />
+    <MESSAGE value="fix: changed all icons to their own" />
+    <MESSAGE value="feat: added 3 more icons" />
+    <MESSAGE value="fix: added StrokeThockness" />
+    <MESSAGE value="another free commmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="another free commmit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
