@@ -14,12 +14,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
-    </list>
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,12 +39,12 @@
     &quot;assignee&quot;: &quot;ImAstroth&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DenGoral/AstroLauncher",
-    "accountId": "ac7f866c-103e-4484-9d08-6daffcd282c9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DenGoral/AstroLauncher&quot;,
+    &quot;accountId&quot;: &quot;ac7f866c-103e-4484-9d08-6daffcd282c9&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/892a4ee261564664b543c292de8d242f226a00/bf/04ab4467/CompiledBinding.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" root0="FORCE_HIGHLIGHTING" />
@@ -237,39 +232,7 @@
       <workItem from="1781702243964" duration="842000" />
       <workItem from="1782126656298" duration="4756000" />
       <workItem from="1793896674942" duration="154000" />
-      <workItem from="1795440370550" duration="1982000" />
-    </task>
-    <task id="LOCAL-00032" summary="feat: languages can now be chosen from &quot;Languages&quot; ObservableCollection in GeneralViewModel.cs">
-      <option name="closed" value="true" />
-      <created>1779388780180</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1779388780180</updated>
-    </task>
-    <task id="LOCAL-00033" summary="feat: SelectedItem in ComboBox is now binded to &quot;ChosenLanguage&quot; private field in GeneralViewModel.cs">
-      <option name="closed" value="true" />
-      <created>1779388915875</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1779388915876</updated>
-    </task>
-    <task id="LOCAL-00034" summary="removed &quot;Line&quot; separators">
-      <option name="closed" value="true" />
-      <created>1779472749878</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1779472749878</updated>
-    </task>
-    <task id="LOCAL-00035" summary="feat: added &quot;Control&quot; folder for &quot;Avalonia Template Control&quot; files. Added &quot;SettingsItem.axaml&quot;">
-      <option name="closed" value="true" />
-      <created>1779473213800</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1779473213800</updated>
+      <workItem from="1795440370550" duration="2182000" />
     </task>
     <task id="LOCAL-00036" summary="feat: added SettigItem template control for easier settings scaling">
       <option name="closed" value="true" />
@@ -631,7 +594,39 @@
       <option name="project" value="LOCAL" />
       <updated>1795441446266</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="fix: changed icon StreamGeometry for batter looking one">
+      <option name="closed" value="true" />
+      <created>1795442492734</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1795442492734</updated>
+    </task>
+    <task id="LOCAL-00082" summary="fix: fixed icons being fully filled">
+      <option name="closed" value="true" />
+      <created>1795442509380</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1795442509380</updated>
+    </task>
+    <task id="LOCAL-00083" summary="fix: icons are now properly being rendered">
+      <option name="closed" value="true" />
+      <created>1795442525734</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1795442525734</updated>
+    </task>
+    <task id="LOCAL-00084" summary="fix: fixed full icon behaviour">
+      <option name="closed" value="true" />
+      <created>1795442538121</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1795442538121</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,10 +636,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added &quot;About&quot; connections" />
-    <MESSAGE value="feat: added new AboutIcon" />
-    <MESSAGE value="fix: corrected DataTemplate Data" />
-    <MESSAGE value="fix: connected &quot;AboutViewModel&quot;" />
     <MESSAGE value="reafctor: removed all unused files &amp; spaces" />
     <MESSAGE value="feat: added new &quot;SecondaryBtn&quot; style" />
     <MESSAGE value="feat: added stack panel to hold filter bvuttons" />
@@ -666,7 +657,11 @@
     <MESSAGE value="fix: fixed icons not showing up properly in SettingItem.axaml" />
     <MESSAGE value="fix: fixed icons' behaviuor" />
     <MESSAGE value="fix: fixed more bugs connected with icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed more bugs connected with icons" />
+    <MESSAGE value="fix: changed icon StreamGeometry for batter looking one" />
+    <MESSAGE value="fix: fixed icons being fully filled" />
+    <MESSAGE value="fix: icons are now properly being rendered" />
+    <MESSAGE value="fix: fixed full icon behaviour" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed full icon behaviour" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
