@@ -20,7 +20,6 @@
                               StrokeThickness="2"
                               StrokeLineCap="Round"
                               StrokeJoin="Round"
-                              Fill="Transparent"
                               Width="18" Height="18"/>
             
                         <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,5,0">
