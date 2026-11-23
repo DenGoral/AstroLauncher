@@ -14,10 +14,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
-    </list>
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -234,31 +231,7 @@
       <workItem from="1781702243964" duration="842000" />
       <workItem from="1782126656298" duration="4756000" />
       <workItem from="1793896674942" duration="154000" />
-      <workItem from="1795440370550" duration="644000" />
-    </task>
-    <task id="LOCAL-00028" summary="fix: fixed all icons and added them to UI">
-      <option name="closed" value="true" />
-      <created>1778587456549</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1778587456550</updated>
-    </task>
-    <task id="LOCAL-00029" summary="feat: fully migrated to SVGs for all of the icons">
-      <option name="closed" value="true" />
-      <created>1779280738423</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1779280738423</updated>
-    </task>
-    <task id="LOCAL-00030" summary="added ListBox to InstancesView.axaml and removed &quot;Fonts&quot; &amp; &quot;Images&quot; from &quot;Assets&quot; folder.">
-      <option name="closed" value="true" />
-      <created>1779281676636</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1779281676636</updated>
+      <workItem from="1795440370550" duration="980000" />
     </task>
     <task id="LOCAL-00031" summary="feat: added &quot;minimize to system tray&quot; and &quot;language&quot; settings in GeneralView.axaml">
       <option name="closed" value="true" />
@@ -628,7 +601,31 @@
       <option name="project" value="LOCAL" />
       <updated>1782131473899</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="fix: changed icons' StreamGeometry">
+      <option name="closed" value="true" />
+      <created>1795441259482</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1795441259482</updated>
+    </task>
+    <task id="LOCAL-00078" summary="fix: fixed icons not showing up properly in SettingItem.axaml">
+      <option name="closed" value="true" />
+      <created>1795441287461</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1795441287461</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix: fixed icons' behaviuor">
+      <option name="closed" value="true" />
+      <created>1795441318908</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1795441318908</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,9 +635,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added AboutView.axaml.cs" />
-    <MESSAGE value="feat: added AboutViewModel.cs" />
-    <MESSAGE value="refactor: removed unused space" />
     <MESSAGE value="feat: added DataTemplate for &quot;About&quot; settings page" />
     <MESSAGE value="feat: added &quot;About&quot; connections" />
     <MESSAGE value="feat: added new AboutIcon" />
@@ -663,7 +657,10 @@
     <MESSAGE value="feat: added 3 more icons" />
     <MESSAGE value="fix: added StrokeThockness" />
     <MESSAGE value="another free commmit" />
-    <option name="LAST_COMMIT_MESSAGE" value="another free commmit" />
+    <MESSAGE value="fix: changed icons' StreamGeometry" />
+    <MESSAGE value="fix: fixed icons not showing up properly in SettingItem.axaml" />
+    <MESSAGE value="fix: fixed icons' behaviuor" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed icons' behaviuor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
