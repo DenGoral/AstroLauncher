@@ -29,6 +29,11 @@
         <Setter Property="Foreground" Value="White"/>
     </Style>
     
+    <Style Selector="ListBoxItem.InstanceItem:selected /template/ ContentPresenter#PART_ContentPresenter">
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/> 
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    
     <Style Selector="ListBoxItem:pressed">
         <Setter Property="RenderTransform" Value="scale(0.96)" />
     </Style>

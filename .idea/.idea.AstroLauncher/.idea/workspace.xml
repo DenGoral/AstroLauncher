@@ -14,7 +14,11 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/ListBoxStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/ListBoxStyles.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/InstancesView.axaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +45,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/DenGoral/AstroLauncher&quot;,
+    &quot;url&quot;: &quot;https://github.com/ImAstroth/AstroLauncher&quot;,
     &quot;accountId&quot;: &quot;ac7f866c-103e-4484-9d08-6daffcd282c9&quot;
   }
 }</component>
@@ -68,6 +72,65 @@
     <setting file="file:///var/folders/9s/8cdv544s6xjbcsmsh7dkj0180000gp/T/SourceGeneratedDocuments/77BF9F574EDA5D8D1BFD92E3/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AstroLauncher.ViewModels.SettingsViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.6590136165767646" />
+      <entry key="MS500" value="3.456416454085891" />
+      <entry key="S2" value="8.551622316516603" />
+      <entry key="S5" value="13.408320908233026" />
+      <entry key="S10" value="16.453223322188734" />
+      <entry key="S30" value="20.379667948398087" />
+      <entry key="S60" value="24.271375788706" />
+      <entry key="M2" value="29.420548288891062" />
+      <entry key="M5" value="36.439345513604955" />
+      <entry key="M10" value="40.44449770099117" />
+      <entry key="M15" value="42.09142357348027" />
+      <entry key="M30" value="43.93347829388296" />
+      <entry key="H1" value="44.936668326352944" />
+      <entry key="H2" value="45.4605478817588" />
+      <entry key="H4" value="45.72829267166512" />
+      <entry key="D1" value="45.95443726989279" />
+      <entry key="W1" value="45.993484186620805" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="5.728678491424953E-25" />
+      <entry key="MS500" value="1.4177866733564961E-5" />
+      <entry key="S2" value="0.06136448876429188" />
+      <entry key="S5" value="0.3327688439545141" />
+      <entry key="S10" value="0.6499851310758333" />
+      <entry key="S30" value="1.5057989159867442" />
+      <entry key="S60" value="2.3376148008977355" />
+      <entry key="M2" value="3.51588195030814" />
+      <entry key="M5" value="5.599534038500328" />
+      <entry key="M10" value="6.969151748827911" />
+      <entry key="M15" value="7.557873571036513" />
+      <entry key="M30" value="8.23040443897722" />
+      <entry key="H1" value="8.602160308830822" />
+      <entry key="H2" value="8.797698439003192" />
+      <entry key="H4" value="8.897988131067233" />
+      <entry key="D1" value="8.982877072924895" />
+      <entry key="W1" value="8.997550887734263" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6058067074894762" />
+      <entry key="MS500" value="3.428945697047293" />
+      <entry key="S2" value="8.568420965236973" />
+      <entry key="S5" value="13.663950441598274" />
+      <entry key="S10" value="17.028796474676536" />
+      <entry key="S30" value="21.821911510409237" />
+      <entry key="S60" value="26.55291612031864" />
+      <entry key="M2" value="32.88616617628921" />
+      <entry key="M5" value="42.000030095994425" />
+      <entry key="M10" value="47.38766706243002" />
+      <entry key="M15" value="49.63006261536529" />
+      <entry key="M30" value="52.153163635115405" />
+      <entry key="H1" value="53.53316275578957" />
+      <entry key="H2" value="54.25533258823708" />
+      <entry key="H4" value="54.62480318842476" />
+      <entry key="D1" value="54.93706514428825" />
+      <entry key="W1" value="54.99099940219161" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -233,14 +296,7 @@
       <workItem from="1782126656298" duration="4756000" />
       <workItem from="1793896674942" duration="154000" />
       <workItem from="1795440370550" duration="2182000" />
-    </task>
-    <task id="LOCAL-00036" summary="feat: added SettigItem template control for easier settings scaling">
-      <option name="closed" value="true" />
-      <created>1779474111830</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1779474111830</updated>
+      <workItem from="1795447939280" duration="279000" />
     </task>
     <task id="LOCAL-00037" summary="feat: added ActionContent and LowerContent for better placing">
       <option name="closed" value="true" />
@@ -626,7 +682,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795442538121</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="fix: icons fixed">
+      <option name="closed" value="true" />
+      <created>1795447978007</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1795447978008</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +700,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="reafctor: removed all unused files &amp; spaces" />
     <MESSAGE value="feat: added new &quot;SecondaryBtn&quot; style" />
     <MESSAGE value="feat: added stack panel to hold filter bvuttons" />
     <MESSAGE value="fix: removed unused file" />
@@ -661,7 +724,8 @@
     <MESSAGE value="fix: fixed icons being fully filled" />
     <MESSAGE value="fix: icons are now properly being rendered" />
     <MESSAGE value="fix: fixed full icon behaviour" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed full icon behaviour" />
+    <MESSAGE value="fix: icons fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: icons fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

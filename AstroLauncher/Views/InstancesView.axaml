@@ -1,6 +1,5 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:vm="using:AstroLauncher.ViewModels"
              xmlns:viewModels="clr-namespace:AstroLauncher.ViewModels"
              x:DataType="viewModels:InstancesViewModel"
              x:CompileBindings="True"
@@ -42,7 +41,7 @@
                           
             <ScrollViewer Margin="0,10,0,0">
                 <ListBox Background="Transparent">
-                    <ListBoxItem Classes="BaseListBox"/>
+                    <ListBoxItem Classes="BaseListBox InstanceItem"/>
                 </ListBox>
             </ScrollViewer>
         </StackPanel>
