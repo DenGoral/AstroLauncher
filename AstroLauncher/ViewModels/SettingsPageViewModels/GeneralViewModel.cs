@@ -9,7 +9,7 @@ namespace AstroLauncher.ViewModels.SettingsPageViewModels;
 
 public partial class GeneralViewModel : ViewModelBase
 {
-    [ObservableProperty] private string _chosenLanguage;
+    [ObservableProperty] private string _chosenLanguage = "English";
     
     public GeneralViewModel()
     {
