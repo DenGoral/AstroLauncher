@@ -65,6 +65,14 @@
                         </StackPanel>
                     </controls:SettingItem.ActionContent>
                 </controls:SettingItem>
+                
+                <!-- THROTTLE DOWNLOAD-->
+                <controls:SettingItem Header="Throttle downloads"
+                                      Description="Limit download speed to prevent network congestion">
+                    <controls:SettingItem.ActionContent>
+                        <ToggleSwitch Classes="SettingsToggle"/>
+                    </controls:SettingItem.ActionContent>
+                </controls:SettingItem>
             </StackPanel>
         </Border>
     </StackPanel>
