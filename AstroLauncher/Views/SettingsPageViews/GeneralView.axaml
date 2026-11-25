@@ -45,6 +45,14 @@
             </StackPanel>
         </Border>
         
+        <Border Classes="Divider" Height="3" Margin="15,0"/>
         
+        <!-- PERFORMANCE -->
+        <TextBlock Text="Performance" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,5"/>
+        <Border Classes="InnerSurface">
+            <StackPanel Spacing="2">
+                
+            </StackPanel>
+        </Border>
     </StackPanel>
 </UserControl>
