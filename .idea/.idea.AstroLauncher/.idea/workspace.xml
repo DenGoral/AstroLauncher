@@ -14,7 +14,11 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,61 +74,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000004863193747" />
-      <entry key="MS500" value="1.1028210386045114" />
-      <entry key="S2" value="1.9530514633913219" />
-      <entry key="S5" value="2.7618557772467653" />
-      <entry key="S10" value="3.4067188467405782" />
-      <entry key="S30" value="5.0871539012015115" />
-      <entry key="S60" value="6.711982677027975" />
-      <entry key="M2" value="9.735549927209375" />
-      <entry key="M5" value="26.200611538213064" />
-      <entry key="M10" value="63.24614923219999" />
-      <entry key="M15" value="93.69787951967719" />
-      <entry key="M30" value="148.98041562993666" />
-      <entry key="H1" value="194.81304490367506" />
-      <entry key="H2" value="225.3606321691851" />
-      <entry key="H4" value="243.17387766774084" />
-      <entry key="D1" value="259.5441483261107" />
-      <entry key="W1" value="262.50243232751325" />
+      <entry key="MS100" value="5.8754758861143546E-18" />
+      <entry key="MS500" value="3.579386615592044E-4" />
+      <entry key="S2" value="0.13896448648376053" />
+      <entry key="S5" value="0.7567622986592782" />
+      <entry key="S10" value="2.66249431197063" />
+      <entry key="S30" value="9.27251575881537" />
+      <entry key="S60" value="16.82053185320292" />
+      <entry key="M2" value="29.49871185823575" />
+      <entry key="M5" value="56.615176983765224" />
+      <entry key="M10" value="96.40824913677183" />
+      <entry key="M15" value="129.48857958546301" />
+      <entry key="M30" value="192.3109210426304" />
+      <entry key="H1" value="246.5587882240243" />
+      <entry key="H2" value="283.57932552144854" />
+      <entry key="H4" value="305.44440253999" />
+      <entry key="D1" value="325.70377956976256" />
+      <entry key="W1" value="329.38103089938284" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.037965813805694E-126" />
-      <entry key="S5" value="8.029171308185127E-51" />
-      <entry key="S10" value="1.2664341595783556E-25" />
-      <entry key="S30" value="1.1752023747689559E-8" />
-      <entry key="S60" value="2.6989868959410894E-4" />
-      <entry key="M2" value="0.04716301899777851" />
-      <entry key="M5" value="1.2949316535742637" />
-      <entry key="M10" value="4.717239592314566" />
-      <entry key="M15" value="7.828465712026862" />
-      <entry key="M30" value="14.106368916110148" />
-      <entry key="H1" value="19.82758475271143" />
-      <entry key="H2" value="23.850784771117674" />
-      <entry key="H4" value="26.263250243491974" />
-      <entry key="D1" value="28.519245079014333" />
-      <entry key="W1" value="28.930687768375254" />
+      <entry key="MS100" value="1.0000000000024507" />
+      <entry key="MS500" value="1.0048352351462642" />
+      <entry key="S2" value="1.3972967435838073" />
+      <entry key="S5" value="2.4787792772723543" />
+      <entry key="S10" value="3.961180644078014" />
+      <entry key="S30" value="6.824203583806482" />
+      <entry key="S60" value="8.175186518859535" />
+      <entry key="M2" value="9.023620092927667" />
+      <entry key="M5" value="10.157564268006919" />
+      <entry key="M10" value="12.91791325065668" />
+      <entry key="M15" value="15.811417851016929" />
+      <entry key="M30" value="22.229126030997524" />
+      <entry key="H1" value="28.478960787466796" />
+      <entry key="H2" value="33.02967167397479" />
+      <entry key="H4" value="35.80826451765857" />
+      <entry key="D1" value="38.43644846408758" />
+      <entry key="W1" value="38.918677627843095" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.2624307535124317" />
-      <entry key="MS500" value="0.8495877908711457" />
-      <entry key="S2" value="1.849866533925066" />
-      <entry key="S5" value="2.7066715488622606" />
-      <entry key="S10" value="3.3725768051552665" />
-      <entry key="S30" value="5.069138124026816" />
-      <entry key="S60" value="6.700868629737455" />
-      <entry key="M2" value="9.775517911610066" />
-      <entry key="M5" value="27.485409017420043" />
-      <entry key="M10" value="67.94805294335693" />
-      <entry key="M15" value="101.50976231043278" />
-      <entry key="M30" value="163.07185396114983" />
-      <entry key="H1" value="214.6300194729652" />
-      <entry key="H2" value="249.20497846419178" />
-      <entry key="H4" value="269.4335642705136" />
-      <entry key="D1" value="288.06274532670795" />
-      <entry key="W1" value="291.4330260963272" />
+      <entry key="MS100" value="5.319200864422638E-11" />
+      <entry key="MS500" value="0.009381277164735751" />
+      <entry key="S2" value="0.647822545009816" />
+      <entry key="S5" value="2.5375639675886625" />
+      <entry key="S10" value="6.0694778041152775" />
+      <entry key="S30" value="15.776592014721103" />
+      <entry key="S60" value="24.800648765334913" />
+      <entry key="M2" value="38.41047162954361" />
+      <entry key="M5" value="66.71875883707361" />
+      <entry key="M10" value="109.29003136291703" />
+      <entry key="M15" value="145.26977520793616" />
+      <entry key="M30" value="214.51805738432498" />
+      <entry key="H1" value="275.0233125718293" />
+      <entry key="H2" value="316.600499951548" />
+      <entry key="H4" value="341.2480233034204" />
+      <entry key="D1" value="364.13939129951274" />
+      <entry key="W1" value="368.29958734142775" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -141,35 +145,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.AstroLauncher.executor": "Run",
-    ".NET Project.MCLauncher.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.AstroLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.MCLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "DockerIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;DockerIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.AstroLauncher">
     <configuration name="AstroLauncher" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/AstroLauncher/bin/Debug/net9.0/Astro Launcher" />
@@ -696,7 +700,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="another free commmit" />
     <MESSAGE value="fix: changed icons' StreamGeometry" />
     <MESSAGE value="fix: fixed icons not showing up properly in SettingItem.axaml" />
     <MESSAGE value="fix: fixed icons' behaviuor" />
@@ -721,7 +724,8 @@
     <MESSAGE value="added &quot;throttle download&quot; setting" />
     <MESSAGE value="fix: added a check to see if templete has an icon" />
     <MESSAGE value="added a divider" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a divider" />
+    <MESSAGE value="added new settings part" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new settings part" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
