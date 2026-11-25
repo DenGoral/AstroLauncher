@@ -10,6 +10,8 @@ namespace AstroLauncher.ViewModels.SettingsPageViewModels;
 public partial class GeneralViewModel : ViewModelBase
 {
     [ObservableProperty] private string _chosenLanguage = "English";
+    [ObservableProperty] private int _maxRam = 2048;
+    [ObservableProperty] private int _maxDownloads = 2;
     
     public GeneralViewModel()
     {
