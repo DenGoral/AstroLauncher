@@ -66,6 +66,8 @@
                     </controls:SettingItem.ActionContent>
                 </controls:SettingItem>
                 
+                <Border Classes="Divider" />
+                
                 <!-- THROTTLE DOWNLOAD-->
                 <controls:SettingItem Header="Throttle downloads"
                                       Description="Limit download speed to prevent network congestion">
