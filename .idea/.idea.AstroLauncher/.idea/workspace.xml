@@ -16,10 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsPageViewModels/GeneralViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsPageViewModels/GeneralViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,61 +73,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0656072927264417" />
-      <entry key="MS500" value="1.5799498272527173" />
-      <entry key="S2" value="1.8726651068882156" />
-      <entry key="S5" value="1.9483692008881321" />
-      <entry key="S10" value="2.0584067348329786" />
-      <entry key="S30" value="3.4241247907563377" />
-      <entry key="S60" value="5.006954412173832" />
-      <entry key="M2" value="6.952527734821337" />
-      <entry key="M5" value="11.643187079828456" />
-      <entry key="M10" value="20.70939530378697" />
-      <entry key="M15" value="29.270610453572594" />
-      <entry key="M30" value="45.808607746203" />
-      <entry key="H1" value="59.48506029252486" />
-      <entry key="H2" value="68.36967037401965" />
-      <entry key="H4" value="73.44558497685735" />
-      <entry key="D1" value="78.03907945432265" />
-      <entry key="W1" value="78.86183723534712" />
+      <entry key="MS100" value="1.3012543748966454" />
+      <entry key="MS500" value="3.3442405176197387" />
+      <entry key="S2" value="5.1667112345345485" />
+      <entry key="S5" value="7.10246633195048" />
+      <entry key="S10" value="11.174385602775102" />
+      <entry key="S30" value="26.660694830367788" />
+      <entry key="S60" value="41.24169445695041" />
+      <entry key="M2" value="55.400688021221406" />
+      <entry key="M5" value="70.98444551056723" />
+      <entry key="M10" value="84.23757858157451" />
+      <entry key="M15" value="94.3554841493381" />
+      <entry key="M30" value="113.12997571004493" />
+      <entry key="H1" value="128.63686796332516" />
+      <entry key="H2" value="138.77919527713857" />
+      <entry key="H4" value="144.60263639321343" />
+      <entry key="D1" value="149.89137359405723" />
+      <entry key="W1" value="150.84055154181965" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.5755418061149742E-169" />
-      <entry key="MS500" value="1.735818725393782E-34" />
-      <entry key="S2" value="3.922479077449085E-9" />
-      <entry key="S5" value="5.743550201716463E-4" />
-      <entry key="S10" value="0.0329071085752551" />
-      <entry key="S30" value="0.5059093010989243" />
-      <entry key="S60" value="1.0551516910172702" />
-      <entry key="M2" value="1.9146426225836042" />
-      <entry key="M5" value="4.101095370505504" />
-      <entry key="M10" value="6.5934950554520855" />
-      <entry key="M15" value="8.42041888631999" />
-      <entry key="M30" value="11.670871043763352" />
-      <entry key="H1" value="14.285713279542309" />
-      <entry key="H2" value="15.976597692771556" />
-      <entry key="H4" value="16.94244088886999" />
-      <entry key="D1" value="17.816968977552442" />
-      <entry key="W1" value="17.973681369649352" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.3700046806061096E-145" />
+      <entry key="S2" value="8.786279591535363E-37" />
+      <entry key="S5" value="5.003549201442381E-15" />
+      <entry key="S10" value="9.712669273079205E-8" />
+      <entry key="S30" value="0.0072569749310997175" />
+      <entry key="S60" value="0.12637360620784474" />
+      <entry key="M2" value="0.6626107270101926" />
+      <entry key="M5" value="2.6826756343631524" />
+      <entry key="M10" value="5.332732912490305" />
+      <entry key="M15" value="7.309535763023945" />
+      <entry key="M30" value="10.873799470958975" />
+      <entry key="H1" value="13.789259798284698" />
+      <entry key="H2" value="15.696535683608555" />
+      <entry key="H4" value="16.793287968390548" />
+      <entry key="D1" value="17.7907305936661" />
+      <entry key="W1" value="17.96989767116489" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.409775079231272" />
-      <entry key="MS500" value="1.2445609308427663" />
-      <entry key="S2" value="1.7565772587981074" />
-      <entry key="S5" value="1.8988292268360758" />
-      <entry key="S10" value="2.0593120116925356" />
-      <entry key="S30" value="3.888643422856604" />
-      <entry key="S60" value="6.024605054142958" />
-      <entry key="M2" value="8.838357966541825" />
-      <entry key="M5" value="15.724290199637343" />
-      <entry key="M10" value="27.286967080196824" />
-      <entry key="M15" value="37.67683228455742" />
-      <entry key="M30" value="57.468789753903096" />
-      <entry key="H1" value="73.76387923978034" />
-      <entry key="H2" value="84.34230416146593" />
-      <entry key="H4" value="90.38589421679289" />
-      <entry key="D1" value="95.85567037704438" />
-      <entry key="W1" value="96.83546401150022" />
+      <entry key="MS100" value="1.2282269831207862" />
+      <entry key="MS500" value="3.215462384282352" />
+      <entry key="S2" value="5.106548531067914" />
+      <entry key="S5" value="7.073539021078295" />
+      <entry key="S10" value="11.157240690038146" />
+      <entry key="S30" value="26.65790991331284" />
+      <entry key="S60" value="41.35655412806029" />
+      <entry key="M2" value="56.0486454874637" />
+      <entry key="M5" value="73.65174558482846" />
+      <entry key="M10" value="89.55619639305827" />
+      <entry key="M15" value="101.65185053128715" />
+      <entry key="M30" value="123.99338265313644" />
+      <entry key="H1" value="142.4192534758533" />
+      <entry key="H2" value="154.47172606195332" />
+      <entry key="H4" value="161.3937560612769" />
+      <entry key="D1" value="167.6817174285859" />
+      <entry key="W1" value="168.81039330736397" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -702,11 +699,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="feat: added stack panel to hold filter bvuttons" />
-    <MESSAGE value="fix: removed unused file" />
-    <MESSAGE value="refactor: changed &quot;FilterButtons&quot; to &quot;SecondaryBtn&quot; style class and added &quot;pressed&quot; ContentPresenter" />
-    <MESSAGE value="fix: all &quot;SecondartyBtn&quot; classes are now ToggleButons" />
-    <MESSAGE value="fix: changed Buttons to ToggleButtons" />
     <MESSAGE value="feat: added Background Setter Property to &quot;pressed&quot;" />
     <MESSAGE value="fix: &quot;pressed&quot; changed to &quot;checked&quot;" />
     <MESSAGE value="extra commit! one whole month w out em eh" />
@@ -727,7 +719,12 @@
     <MESSAGE value="fix: fixed full icon behaviour" />
     <MESSAGE value="fix: icons fixed" />
     <MESSAGE value="fix: changed colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: changed colors" />
+    <MESSAGE value="fix: added dividers between setting items" />
+    <MESSAGE value="fix: set &quot;_chosenLanguage&quot; to be &quot;English&quot; by default" />
+    <MESSAGE value="fix: added new &quot;Border.Divider&quot; selector" />
+    <MESSAGE value="fix: added padding to stop items from clipping" />
+    <MESSAGE value="fix: fixed UI issues in general settings page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed UI issues in general settings page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
