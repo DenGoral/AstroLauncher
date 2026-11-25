@@ -14,9 +14,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
-    </list>
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -698,10 +696,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fixed spacing issues" />
-    <MESSAGE value="fix: changed all icons to their own" />
-    <MESSAGE value="feat: added 3 more icons" />
-    <MESSAGE value="fix: added StrokeThockness" />
     <MESSAGE value="another free commmit" />
     <MESSAGE value="fix: changed icons' StreamGeometry" />
     <MESSAGE value="fix: fixed icons not showing up properly in SettingItem.axaml" />
@@ -723,7 +717,11 @@
     <MESSAGE value="feat: added &quot;PERFORMANCE&quot; part of settings" />
     <MESSAGE value="fix: added binding connections" />
     <MESSAGE value="fix: removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: removed" />
+    <MESSAGE value="added max downloads settings" />
+    <MESSAGE value="added &quot;throttle download&quot; setting" />
+    <MESSAGE value="fix: added a check to see if templete has an icon" />
+    <MESSAGE value="added a divider" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a divider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
