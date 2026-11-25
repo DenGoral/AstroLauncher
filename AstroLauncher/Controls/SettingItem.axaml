@@ -7,20 +7,6 @@
     
     <Design.PreviewWith>
         <controls:SettingItem Header="Test" Description="Desc"/>
-        
-        <controls:SettingItem Header="Maximum concurrent downloads"
-                              Description="Number of files to download at the same time">
-            <controls:SettingItem.ActionContent>
-                <StackPanel Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
-                    <Slider Width="200"
-                            Minimum="1" Maximum="8"
-                            TickFrequency="1" IsSnapToTickEnabled="True"
-                            Value="{Binding MaxDownloads}"/>
-                    <TextBlock Width="40" TextAlignment="Right" VerticalAlignment="Center"
-                               Text="{Binding MaxDownloads}"/>
-                </StackPanel>
-            </controls:SettingItem.ActionContent>
-        </controls:SettingItem>
     </Design.PreviewWith>
     
     <Style Selector="controls|SettingItem">
