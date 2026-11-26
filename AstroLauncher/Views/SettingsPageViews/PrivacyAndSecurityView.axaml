@@ -9,110 +9,115 @@
              x:CompileBindings="True"
              x:Class="AstroLauncher.Views.SettingsPageViews.PrivacyAndSecurityView">
     
-    <StackPanel Margin="20" Spacing="15">
-        <!-- PRIVACY & SECURITY -->
-        <TextBlock Text="Privacy and Security" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,5"/>
-        <Border Classes="InnerSurface">
-            <StackPanel Spacing="2">
-                <!-- TELEMETRY & PRIVACY -->
-                <controls:SettingItem Header="Telemetry &amp; Diagnostics" 
-                                      Description="Choose what anonymous data you share to help improve the launcher.">
-                    <controls:SettingItem.ActionContent>
-                        <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
-                            <ComboBoxItem Content="Off (None)"/>
-                            <ComboBoxItem Content="Crash Reports Only"/>
-                            <ComboBoxItem Content="Full Usage &amp; Crashes"/>
-                        </ComboBox>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-
-                <Border Classes="Divider"/>
-
-                <controls:SettingItem Header="Discord Rich Presence" 
-                                      Description="Control what game details are visible on your Discord profile.">
-                    <controls:SettingItem.ActionContent>
-                        <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
-                            <ComboBoxItem Content="Disabled"/>
-                            <ComboBoxItem Content="Playing Minecraft Only"/>
-                            <ComboBoxItem Content="Show Version &amp; Modpack"/>
-                        </ComboBox>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-
-                <Border Classes="Divider"/>
-
-                <controls:SettingItem Header="Mask sensitive info in logs" 
-                                      Description="Automatically hide your account username, UUID, and access tokens when saving or sharing logs.">
-                    <controls:SettingItem.ActionContent>
-                        <ToggleSwitch Classes="SettingsToggle" IsChecked="True"/>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-
-                <Border Classes="Divider"/>
-
-                <controls:SettingItem Header="Log retention period" 
-                                      Description="Automatically delete old launcher and crash logs after the selected number of days.">
-                    <controls:SettingItem.ActionContent>
-                        <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
-                            <Slider Classes="SettingsSlider" Minimum="1" Maximum="90" Value="14" Width="130" IsSnapToTickEnabled="True" TickFrequency="1"/>
-                            <TextBlock Text="14d" VerticalAlignment="Center" Width="32" Foreground="{DynamicResource TextPrimary}"/>
-                        </StackPanel>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-            </StackPanel>
-        </Border>
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled"
+                  VerticalScrollBarVisibility="Auto">
         
-        <Border Classes="Divider" Height="3" Margin="15,0"/>
+        <StackPanel Margin="20" Spacing="15">
+                <!-- PRIVACY & SECURITY -->
+                <TextBlock Text="Privacy and Security" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,5"/>
+                <Border Classes="InnerSurface">
+                    <StackPanel Spacing="2">
+                        <!-- TELEMETRY & PRIVACY -->
+                        <controls:SettingItem Header="Telemetry &amp; Diagnostics" 
+                                              Description="Choose what anonymous data you share to help improve the launcher.">
+                            <controls:SettingItem.ActionContent>
+                                <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
+                                    <ComboBoxItem Content="Off (None)"/>
+                                    <ComboBoxItem Content="Crash Reports Only"/>
+                                    <ComboBoxItem Content="Full Usage &amp; Crashes"/>
+                                </ComboBox>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
         
-        <!-- SECURITY & NETWORK -->
-        <TextBlock Text="Security &amp; Network" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,5"/>
-        <Border Classes="InnerSurface" Margin="0,12,0,0">
-            <StackPanel>
-                <controls:SettingItem Header="Mod &amp; modpack verification" 
-                                      Description="Set how strictly the launcher checks SHA-256 hashes and trusted sources before launching.">
-                    <controls:SettingItem.ActionContent>
-                        <ComboBox Classes="DefaultComboBox" SelectedIndex="1" Width="180">
-                            <ComboBoxItem Content="Disabled"/>
-                            <ComboBoxItem Content="Warn on Unverified"/>
-                            <ComboBoxItem Content="Block Unverified"/>
-                        </ComboBox>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-
-                <Border Classes="Divider"/>
-
-                <controls:SettingItem Header="Session timeout" 
-                                      Description="Require re-authentication if the launcher hasn't been used for this many days.">
-                    <controls:SettingItem.ActionContent>
-                        <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
-                            <Slider Classes="SettingsSlider" Minimum="1" Maximum="30" Value="7" Width="130" IsSnapToTickEnabled="True" TickFrequency="1"/>
-                            <TextBlock Text="7d" VerticalAlignment="Center" Width="32" Foreground="{DynamicResource TextPrimary}"/>
-                        </StackPanel>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-
-                <Border Classes="Divider"/>
-
-                <controls:SettingItem Header="Proxy mode" 
-                                      Description="Route launcher downloads and API requests through a proxy.">
-                    <controls:SettingItem.ActionContent>
-                        <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
-                            <ComboBoxItem Content="System Default"/>
-                            <ComboBoxItem Content="Direct (No Proxy)"/>
-                            <ComboBoxItem Content="Custom SOCKS5 / HTTP"/>
-                        </ComboBox>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
-
-                <Border Classes="Divider"/>
-
-                <controls:SettingItem Header="Strict HTTPS &amp; system certificates" 
-                                      Description="Validate all connections using your OS root certificate store and block insecure HTTP.">
-                    <controls:SettingItem.ActionContent>
-                        <ToggleSwitch Classes="SettingsToggle" IsChecked="True"/>
-                    </controls:SettingItem.ActionContent>
-                </controls:SettingItem>
+                        <Border Classes="Divider"/>
+        
+                        <controls:SettingItem Header="Discord Rich Presence" 
+                                              Description="Control what game details are visible on your Discord profile.">
+                            <controls:SettingItem.ActionContent>
+                                <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
+                                    <ComboBoxItem Content="Disabled"/>
+                                    <ComboBoxItem Content="Playing Minecraft Only"/>
+                                    <ComboBoxItem Content="Show Version &amp; Modpack"/>
+                                </ComboBox>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+        
+                        <Border Classes="Divider"/>
+        
+                        <controls:SettingItem Header="Mask sensitive info in logs" 
+                                              Description="Automatically hide your account username, UUID, and access tokens when saving or sharing logs.">
+                            <controls:SettingItem.ActionContent>
+                                <ToggleSwitch Classes="SettingsToggle" IsChecked="True"/>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+        
+                        <Border Classes="Divider"/>
+        
+                        <controls:SettingItem Header="Log retention period" 
+                                              Description="Automatically delete old launcher and crash logs after the selected number of days.">
+                            <controls:SettingItem.ActionContent>
+                                <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                                    <Slider Classes="SettingsSlider" Minimum="1" Maximum="90" Value="14" Width="130" IsSnapToTickEnabled="True" TickFrequency="1"/>
+                                    <TextBlock Text="14d" VerticalAlignment="Center" Width="32" Foreground="{DynamicResource TextPrimary}"/>
+                                </StackPanel>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+                    </StackPanel>
+                </Border>
+                
+                <Border Classes="Divider" Height="3" Margin="15,0"/>
+                
+                <!-- SECURITY & NETWORK -->
+                <TextBlock Text="Security &amp; Network" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,5"/>
+                <Border Classes="InnerSurface" Margin="0,12,0,0">
+                    <StackPanel>
+                        <controls:SettingItem Header="Mod &amp; modpack verification" 
+                                              Description="Set how strictly the launcher checks SHA-256 hashes and trusted sources before launching.">
+                            <controls:SettingItem.ActionContent>
+                                <ComboBox Classes="DefaultComboBox" SelectedIndex="1" Width="180">
+                                    <ComboBoxItem Content="Disabled"/>
+                                    <ComboBoxItem Content="Warn on Unverified"/>
+                                    <ComboBoxItem Content="Block Unverified"/>
+                                </ComboBox>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+        
+                        <Border Classes="Divider"/>
+        
+                        <controls:SettingItem Header="Session timeout" 
+                                              Description="Require re-authentication if the launcher hasn't been used for this many days.">
+                            <controls:SettingItem.ActionContent>
+                                <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                                    <Slider Classes="SettingsSlider" Minimum="1" Maximum="30" Value="7" Width="130" IsSnapToTickEnabled="True" TickFrequency="1"/>
+                                    <TextBlock Text="7d" VerticalAlignment="Center" Width="32" Foreground="{DynamicResource TextPrimary}"/>
+                                </StackPanel>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+        
+                        <Border Classes="Divider"/>
+        
+                        <controls:SettingItem Header="Proxy mode" 
+                                              Description="Route launcher downloads and API requests through a proxy.">
+                            <controls:SettingItem.ActionContent>
+                                <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
+                                    <ComboBoxItem Content="System Default"/>
+                                    <ComboBoxItem Content="Direct (No Proxy)"/>
+                                    <ComboBoxItem Content="Custom SOCKS5 / HTTP"/>
+                                </ComboBox>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+        
+                        <Border Classes="Divider"/>
+        
+                        <controls:SettingItem Header="Strict HTTPS &amp; system certificates" 
+                                              Description="Validate all connections using your OS root certificate store and block insecure HTTP.">
+                            <controls:SettingItem.ActionContent>
+                                <ToggleSwitch Classes="SettingsToggle" IsChecked="True"/>
+                            </controls:SettingItem.ActionContent>
+                        </controls:SettingItem>
+                    </StackPanel>
+                </Border>
             </StackPanel>
-        </Border>
-    </StackPanel>
+    </ScrollViewer>    
+    
 </UserControl>
