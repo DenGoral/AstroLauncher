@@ -16,6 +16,7 @@ public partial class SettingsViewModel : ViewModelBase
     public ObservableCollection<ViewModelBase> Categories { get; } = new()
     {
         new GeneralViewModel(),
+        new PrivacyAndSecurityViewModel(),
         new LauncherViewModel(),
         new AboutViewModel(),
     };
@@ -31,6 +32,12 @@ public partial class SettingsViewModel : ViewModelBase
     private void NavigateToGeneral()
     {
         SelectedCategory =  new GeneralViewModel();
+    }
+    
+    [RelayCommand]
+    private void NavigateToPrivacy()
+    {
+        SelectedCategory =  new PrivacyAndSecurityViewModel();
     }
 
     [RelayCommand]

@@ -14,7 +14,7 @@
            <TextBlock Text="Settings" Classes="Header"/>
            <TextBlock Text="Customize your launcher experience" Classes="Description"/>
            
-           <Grid ColumnDefinitions="175, *" Margin="0,15,0,0">
+           <Grid ColumnDefinitions="200, *" Margin="0,15,0,0">
                <!-- SETTINGS TAB -->
                <ListBox ItemsSource="{Binding Categories}"
                         SelectedItem="{Binding SelectedCategory}"
