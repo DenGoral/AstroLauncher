@@ -44,6 +44,11 @@
                            <DataTemplate DataType="{x:Type settingsPageViewModels:GeneralViewModel}">
                                <settingsPageViews:GeneralView/>
                            </DataTemplate>
+                           
+                           <!-- Privacy & Security -->
+                           <DataTemplate DataType="{x:Type settingsPageViewModels:PrivacyAndSecurityViewModel}">
+                               <settingsPageViews:PrivacyAndSecurityView/>
+                           </DataTemplate>
                                                         
                            <!-- Launcher -->
                            <DataTemplate DataType="{x:Type settingsPageViewModels:LauncherViewModel}">

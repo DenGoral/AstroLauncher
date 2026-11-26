@@ -22,6 +22,7 @@
         <entry key="AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/SettingsPageViews/LauncherView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/SettingsPageViews/PrivacyAndSecurity.axaml" value="AstroLauncher/AstroLauncher.csproj" />
+        <entry key="AstroLauncher/Views/SettingsPageViews/PrivacyAndSecurityView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
         <entry key="AstroLauncher/Views/SettingsView.axaml" value="AstroLauncher/AstroLauncher.csproj" />
       </map>
     </option>
