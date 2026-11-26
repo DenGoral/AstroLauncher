@@ -14,7 +14,11 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="" />
+    <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsPageViewModels/PrivacyAndSecurityViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/PrivacyAndSecurityView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/PrivacyAndSecurityView.axaml.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +50,13 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/892a4ee261564664b543c292de8d242f226a00/bf/04ab4467/CompiledBinding.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Assets/Icons.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Styles/SettingsStyles.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Utils/ViewTypeToBoolConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/ViewModels/InstancesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsPageViewModels/GeneralViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsPageViewModels/LauncherViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsPageViewModels/PrivacyAndSecurityViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/ViewModels/SettingsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/ViewModels/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/DiscoverView.axaml" root0="FORCE_HIGHLIGHTING" />
@@ -63,6 +67,8 @@
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/LauncherView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/PrivacyAndSecurity.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/PrivacyAndSecurity.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///var/folders/9s/8cdv544s6xjbcsmsh7dkj0180000gp/T/SourceGeneratedDocuments/77BF9F574EDA5D8D1BFD92E3/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/AstroLauncher.ViewModels.SettingsViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
@@ -696,7 +702,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fix: fixed icons not showing up properly in SettingItem.axaml" />
     <MESSAGE value="fix: fixed icons' behaviuor" />
     <MESSAGE value="fix: fixed more bugs connected with icons" />
     <MESSAGE value="fix: changed icon StreamGeometry for batter looking one" />
@@ -721,7 +726,8 @@
     <MESSAGE value="added a divider" />
     <MESSAGE value="added new settings part" />
     <MESSAGE value="added new style for Sliders" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new style for Sliders" />
+    <MESSAGE value="added a new icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a new icon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
