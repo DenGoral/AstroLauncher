@@ -10,11 +10,11 @@
              xmlns:conv="using:AstroLauncher.Utils">
     
     <Border>
-       <StackPanel Margin="15" Spacing="3">
-           <TextBlock Text="Settings" Classes="Header"/>
-           <TextBlock Text="Customize your launcher experience" Classes="Description"/>
+        <Grid Margin="15" RowDefinitions="Auto,Auto,*">
+           <TextBlock Grid.Row="0" Text="Settings" Classes="Header"/>
+           <TextBlock Grid.Row="1"  Text="Customize your launcher experience" Classes="Description"/>
            
-           <Grid ColumnDefinitions="200, *" Margin="0,15,0,0">
+           <Grid Grid.Row="2"  ColumnDefinitions="200, *" Margin="0,15,0,0">
                <!-- SETTINGS TAB -->
                <ListBox ItemsSource="{Binding Categories}"
                         SelectedItem="{Binding SelectedCategory}"
@@ -63,6 +63,6 @@
                    </ContentControl>
                </Border>
            </Grid>
-       </StackPanel>
+       </Grid>
    </Border>
 </UserControl>

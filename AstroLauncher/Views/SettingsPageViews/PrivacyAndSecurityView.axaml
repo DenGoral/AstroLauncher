@@ -4,13 +4,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:AstroLauncher.ViewModels.SettingsPageViewModels"
              xmlns:controls="clr-namespace:AstroLauncher.Controls"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:DataType="viewModels:PrivacyAndSecurityViewModel"
              x:CompileBindings="True"
              x:Class="AstroLauncher.Views.SettingsPageViews.PrivacyAndSecurityView">
     
     <ScrollViewer HorizontalScrollBarVisibility="Disabled"
-                  VerticalScrollBarVisibility="Auto">
+                  VerticalScrollBarVisibility="Auto"
+                  Background="Transparent">
         
         <StackPanel Margin="20" Spacing="15">
                 <!-- PRIVACY & SECURITY -->
@@ -118,6 +118,5 @@
                     </StackPanel>
                 </Border>
             </StackPanel>
-    </ScrollViewer>    
-    
+    </ScrollViewer>
 </UserControl>
