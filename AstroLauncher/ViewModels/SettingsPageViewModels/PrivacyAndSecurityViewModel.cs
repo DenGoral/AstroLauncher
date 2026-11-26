@@ -12,7 +12,7 @@ public class PrivacyAndSecurityViewModel : ViewModelBase
         public PrivacyAndSecurityViewModel()
         {
             DisplayName = "Privacy & Security";
-            IconData = (StreamGeometry)Application.Current.FindResource("AboutIcon");
+            IconData = (StreamGeometry)Application.Current.FindResource("SecurityIcon");
         }
 
 }
