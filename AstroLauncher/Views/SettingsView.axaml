@@ -26,7 +26,7 @@
                                <Path Data="{Binding IconData}"
                                      Width="18" Height="18"
                                      Stretch="Uniform"
-                                     Stroke="White"
+                                     Stroke="{DynamicResource TextPrimary}"
                                      StrokeThickness="2"
                                      StrokeLineCap="Round"
                                      StrokeJoin="Round"/>
