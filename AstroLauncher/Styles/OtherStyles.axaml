@@ -77,6 +77,8 @@
                     <Border Margin="4"
                             CornerRadius="10"
                             Background="{TemplateBinding Background}"/>
+                    
+                    
                 </Panel>
             </ControlTemplate>
         </Setter>
