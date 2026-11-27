@@ -25,9 +25,19 @@
         <Setter Property="Background" Value="#1E2030"/>
     </Style>
     
-    <Style Selector="ToggleSwitch.SettingsToggle">
-        <Setter Property="Foreground" Value="{DynamicResource AccentColor}"/>
-        <Setter Property="OffContent" Value=""/> <Setter Property="OnContent" Value=""/>
+    <Style Selector="ToggleSwitch.SettingsToggle Border#SwitchKnobBounds">
+        <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/>
+    </Style>
+    
+    <Style Selector="ToggleSwitch.SettingsToggle:pointerover:checked /template/ Border#SwitchKnobBounds">
+        <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/>
+    </Style>
+    
+    <Style Selector="ToggleSwitch.SettingsToggle:pressed:checked /template/ Border#SwitchKnobBounds">
+        <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource AccentColor}"/>
     </Style>
     
     <Style Selector="Slider.SettingsSlider">
@@ -73,12 +83,18 @@
                             CornerRadius="14"
                             BorderThickness="2"
                             BorderBrush="{TemplateBinding Background}"
-                            Opacity="0"/>
+                            Opacity="0">
+                        
+                        <Border.Transitions>
+                            <Transitions>
+                                <DoubleTransition Property="Opacity" Duration="0:0:0.15"/>
+                            </Transitions>
+                        </Border.Transitions>
+                    </Border>
+                    
                     <Border Margin="4"
                             CornerRadius="10"
                             Background="{TemplateBinding Background}"/>
-                    
-                    
                 </Panel>
             </ControlTemplate>
         </Setter>
