@@ -29,7 +29,7 @@
                         <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,5,0">
                             <TextBlock Text="{TemplateBinding Header}" FontSize="14" FontWeight="Medium"/>
                             <TextBlock Text="{TemplateBinding Description}" Classes="Description" Opacity="0.6" FontSize="12"
-                                       TextWrapping="Wrap"/>
+                                       TextWrapping="Wrap" Margin="0,5,0,0"/>
                         </StackPanel>
             
                         <ContentPresenter Grid.Column="2" Grid.Row="0" Content="{TemplateBinding ActionContent}"

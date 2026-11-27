@@ -1,8 +1,8 @@
 <ResourceDictionary xmlns="https://github.com/avaloniaui"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
-    <Color x:Key="MyAccentColorNative">#8C66FF</Color>
-
+    
+    <SolidColorBrush x:Key="AccentColor">#8C66FF</SolidColorBrush>
+    
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Dark">
             <SolidColorBrush x:Key="SurfaceMain">#0A0E14</SolidColorBrush>
@@ -10,13 +10,14 @@
             <SolidColorBrush x:Key="TextPrimary">White</SolidColorBrush>
             <SolidColorBrush x:Key="TextSecondary">LightSlateGray</SolidColorBrush>
             <SolidColorBrush x:Key="SurfaceSecondary">#0D111D</SolidColorBrush>
-            <SolidColorBrush x:Key="AccentColor" Color="{StaticResource MyAccentColorNative}"/>
         </ResourceDictionary>
         
         <ResourceDictionary x:Key="Light">
-            <SolidColorBrush x:Key="SurfaceMain">#F4F4F4</SolidColorBrush>
+            <SolidColorBrush x:Key="SurfaceMain">#F3F5F9</SolidColorBrush>
             <SolidColorBrush x:Key="SurfaceCard">#FFFFFF</SolidColorBrush>
-            <SolidColorBrush x:Key="TextPrimary">#1A1A1A</SolidColorBrush>
+            <SolidColorBrush x:Key="SurfaceSecondary">#E9ECF3</SolidColorBrush>
+            <SolidColorBrush x:Key="TextPrimary">#111827</SolidColorBrush>
+            <SolidColorBrush x:Key="TextSecondary">#64748B</SolidColorBrush>
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>

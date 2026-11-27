@@ -82,6 +82,30 @@
                     </controls:SettingItem>
                 </StackPanel>
             </Border>
+            
+            <Border Classes="Divider" Height="3" Margin="15,0"/>
+            
+            <!-- APPEARANCE -->
+            <TextBlock Text="Appearance" FontSize="16" FontWeight="Bold" Foreground="{DynamicResource TextPrimary}" Margin="0,0,0,5"/>
+            <Border Classes="InnerSurface">
+                <StackPanel Spacing="2">
+                    <!-- THEME -->
+                    <controls:SettingItem Header="Theme" 
+                                          Description="Change theme of the launcher to your preference.">
+                        <controls:SettingItem.ActionContent>
+                            <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
+                                <ComboBoxItem Content="System Default"/>
+                                <ComboBoxItem Content="Light"/>
+                                <ComboBoxItem Content="Dark"/>
+                            </ComboBox>
+                        </controls:SettingItem.ActionContent>
+                    </controls:SettingItem>
+                    
+                    <Border Classes="Divider"/>
+                    
+                    <!-- ACCENT COLOR -->
+                </StackPanel>
+            </Border>    
         </StackPanel>
     </ScrollViewer>
 </UserControl>

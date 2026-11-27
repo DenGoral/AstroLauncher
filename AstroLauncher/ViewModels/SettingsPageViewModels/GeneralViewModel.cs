@@ -22,6 +22,12 @@ public partial class GeneralViewModel : ViewModelBase
     // available language list
     public ObservableCollection<string> Languages { get; } = new()
     {
-        "English", "Russian", "Portuguese",
+        "English", "Russian", "Portuguese", "French", "Spanish",
     };
+    
+    [RelayCommand]
+    private void SetAccent(string hex)
+    {
+        Application.Current!.Resources["AccentColor"] = new SolidColorBrush(Color.Parse(hex));
+    }
 }
