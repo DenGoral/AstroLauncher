@@ -19,7 +19,7 @@
                               HorizontalAlignment="Left"
                               VerticalAlignment="Center"
                               Margin="0,4,25,0"
-                              Stroke="White" Stretch="Uniform"
+                              Stroke="{DynamicResource TextPrimary}" Stretch="Uniform"
                               StrokeThickness="2"
                               StrokeLineCap="Round"
                               StrokeJoin="Round"
