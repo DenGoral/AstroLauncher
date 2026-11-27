@@ -104,6 +104,34 @@
                     <Border Classes="Divider"/>
                     
                     <!-- ACCENT COLOR -->
+                    <controls:SettingItem Header="Accent Color"
+                                          Description="Change launchers accent color.">
+                        <controls:SettingItem.ActionContent>
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <!-- Purple-->
+                                <RadioButton Classes="AccentSwatch" GroupName="Accent" Background="#8C66FF"
+                                             IsChecked="True"
+                                             Command="{Binding SetAccentCommand}" CommandParameter="#8C66FF"/>
+                                
+                                <!-- Blue-->
+                                <RadioButton Classes="AccentSwatch" GroupName="Accent" Background="#3B82F6"
+                                             Command="{Binding SetAccentCommand}" CommandParameter="#3B82F6"/>
+                                
+                                <!-- Light green-->
+                                <RadioButton Classes="AccentSwatch" GroupName="Accent" Background="#68C258"
+                                             Command="{Binding SetAccentCommand}" CommandParameter="#68C258"/>
+                                
+                                <!-- Pink-->
+                                <RadioButton Classes="AccentSwatch" GroupName="Accent" Background="#CF458F"
+                                             Command="{Binding SetAccentCommand}" CommandParameter="#CF458F"/>
+                                
+                                <!-- Orange-->
+                                <RadioButton Classes="AccentSwatch" GroupName="Accent" Background="#DFB045"
+                                             Command="{Binding SetAccentCommand}" CommandParameter="#DFB045"/>
+                                <!-- more swatches later -->
+                            </StackPanel>
+                        </controls:SettingItem.ActionContent>
+                    </controls:SettingItem>
                 </StackPanel>
             </Border>    
         </StackPanel>

@@ -17,8 +17,9 @@
     <list default="true" id="2518758b-660a-4585-82c2-63a87ce1f6b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AstroLauncher/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Controls/SettingItem.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/Colors.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/Colors.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Styles/OtherStyles.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsPageViews/GeneralView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AstroLauncher/Views/SettingsView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,61 +78,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.4110147456768107E-5" />
-      <entry key="MS500" value="0.11924494381844476" />
-      <entry key="S2" value="0.5876381642098853" />
-      <entry key="S5" value="0.8084329336393745" />
-      <entry key="S10" value="0.8991292594772842" />
-      <entry key="S30" value="1.0475097664948207" />
-      <entry key="S60" value="3.268921351676867" />
-      <entry key="M2" value="14.607983864374233" />
-      <entry key="M5" value="48.17677409255605" />
-      <entry key="M10" value="89.0448133982255" />
-      <entry key="M15" value="128.47684455260207" />
-      <entry key="M30" value="237.92990569960983" />
-      <entry key="H1" value="381.3042879485637" />
-      <entry key="H2" value="510.0923078900772" />
-      <entry key="H4" value="599.0541354375158" />
-      <entry key="D1" value="690.4729667014233" />
-      <entry key="W1" value="708.0176875726648" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000002169378" />
+      <entry key="S2" value="1.0038493099080454" />
+      <entry key="S5" value="1.1497273280578795" />
+      <entry key="S10" value="1.973208257322688" />
+      <entry key="S30" value="5.8260713217078095" />
+      <entry key="S60" value="9.2831167952662" />
+      <entry key="M2" value="13.833865177928827" />
+      <entry key="M5" value="27.55674519929169" />
+      <entry key="M10" value="57.60049759475301" />
+      <entry key="M15" value="91.84793633859717" />
+      <entry key="M30" value="198.23204920412715" />
+      <entry key="H1" value="359.5056197100662" />
+      <entry key="H2" value="521.3653229561335" />
+      <entry key="H4" value="640.8883679071133" />
+      <entry key="D1" value="769.4105282966283" />
+      <entry key="W1" value="794.6850621034484" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000000075" />
-      <entry key="S30" value="1.0000255777990534" />
-      <entry key="S60" value="1.00769625655453" />
-      <entry key="M2" value="1.1566501039410568" />
-      <entry key="M5" value="2.2113237033513142" />
-      <entry key="M10" value="4.170404393140926" />
-      <entry key="M15" value="6.3763677273342685" />
-      <entry key="M30" value="13.867718819489466" />
-      <entry key="H1" value="25.63250493914333" />
-      <entry key="H2" value="37.33933107082399" />
-      <entry key="H4" value="45.867580724005165" />
-      <entry key="D1" value="54.92897393522505" />
-      <entry key="W1" value="56.69833043041892" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.156663861406224E-267" />
+      <entry key="S2" value="2.1549917667714518E-67" />
+      <entry key="S5" value="2.1546575034447726E-27" />
+      <entry key="S10" value="4.64182884588044E-14" />
+      <entry key="S30" value="3.593877662878114E-5" />
+      <entry key="S60" value="0.006001320386688346" />
+      <entry key="M2" value="0.08115322159832872" />
+      <entry key="M5" value="0.5796845516558714" />
+      <entry key="M10" value="1.8566595139584288" />
+      <entry key="M15" value="3.4982801931216345" />
+      <entry key="M30" value="9.778284225195282" />
+      <entry key="H1" value="21.542620180402817" />
+      <entry key="H2" value="34.909555311001604" />
+      <entry key="H4" value="45.43826880278729" />
+      <entry key="D1" value="57.22744449006066" />
+      <entry key="W1" value="59.594433476188335" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.018205073966712854" />
-      <entry key="MS500" value="0.539376702388559" />
-      <entry key="S2" value="1.3671351503804254" />
-      <entry key="S5" value="1.7095427053893557" />
-      <entry key="S10" value="1.847601661678261" />
-      <entry key="S30" value="2.0297164499295053" />
-      <entry key="S60" value="4.265600325288399" />
-      <entry key="M2" value="15.753079336066964" />
-      <entry key="M5" value="50.37429251304901" />
-      <entry key="M10" value="93.20206144377002" />
-      <entry key="M15" value="134.84004712262865" />
-      <entry key="M30" value="251.78348664097328" />
-      <entry key="H1" value="406.9236460925532" />
-      <entry key="H2" value="547.4219850281422" />
-      <entry key="H4" value="644.9157542703099" />
-      <entry key="D1" value="745.400744421691" />
-      <entry key="W1" value="764.7158414406073" />
+      <entry key="MS100" value="0.0021822014415473043" />
+      <entry key="MS500" value="0.29361549301296136" />
+      <entry key="S2" value="0.7399294666846804" />
+      <entry key="S5" value="1.0337732132966506" />
+      <entry key="S10" value="1.9113195887731484" />
+      <entry key="S30" value="5.801024086118745" />
+      <entry key="S60" value="9.273090838484162" />
+      <entry key="M2" value="13.90343476319463" />
+      <entry key="M5" value="28.12660845726508" />
+      <entry key="M10" value="59.44672700690317" />
+      <entry key="M15" value="95.33525073325009" />
+      <entry key="M30" value="207.9980015883745" />
+      <entry key="H1" value="381.0358634260791" />
+      <entry key="H2" value="556.2651509776227" />
+      <entry key="H4" value="686.3203703090506" />
+      <entry key="D1" value="826.6366651421415" />
+      <entry key="W1" value="854.2793011983375" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -703,8 +704,6 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fix: set &quot;_chosenLanguage&quot; to be &quot;English&quot; by default" />
-    <MESSAGE value="fix: added new &quot;Border.Divider&quot; selector" />
     <MESSAGE value="fix: added padding to stop items from clipping" />
     <MESSAGE value="fix: fixed UI issues in general settings page" />
     <MESSAGE value="feat: added 2 new ObservableProperties for performance settings" />
@@ -728,7 +727,9 @@
     <MESSAGE value="fix: fixed ScrollingViewer not scrolling" />
     <MESSAGE value="added launchers logo" />
     <MESSAGE value="wrapped everything in ScrollViewer" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrapped everything in ScrollViewer" />
+    <MESSAGE value="changed accent color to be dynamic" />
+    <MESSAGE value="added new selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new selector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
