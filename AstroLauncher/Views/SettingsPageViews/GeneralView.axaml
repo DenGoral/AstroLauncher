@@ -93,11 +93,9 @@
                     <controls:SettingItem Header="Theme" 
                                           Description="Change theme of the launcher to your preference.">
                         <controls:SettingItem.ActionContent>
-                            <ComboBox Classes="DefaultComboBox" SelectedIndex="0" Width="180">
-                                <ComboBoxItem Content="System Default"/>
-                                <ComboBoxItem Content="Light"/>
-                                <ComboBoxItem Content="Dark"/>
-                            </ComboBox>
+                            <ComboBox SelectedIndex="0" Width="180" 
+                                      ItemsSource="{Binding AvailableThemes}"
+                                      SelectedItem="{Binding SelectedTheme}"/>
                         </controls:SettingItem.ActionContent>
                     </controls:SettingItem>
                     
