@@ -47,7 +47,6 @@
             <Setter Property="Background" Value="{DynamicResource AccentColor}"/>
         </Style>
     </Style>
-
     
     <Style Selector="Path.BaseIcon">
         <Setter Property="Fill" Value="Transparent"/>
@@ -60,5 +59,30 @@
         <Setter Property="Height" Value="18"/>
         <Setter Property="HorizontalAlignment" Value="Center" />
         <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+    
+    <Style Selector="RadioButton.AccentSwatch">
+        <Setter Property="Width" Value="28"/>
+        <Setter Property="Height" Value="28"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Panel>
+                    <Border Name="Ring"
+                            CornerRadius="14"
+                            BorderThickness="2"
+                            BorderBrush="{TemplateBinding Background}"
+                            Opacity="0"/>
+                    <Border Margin="4"
+                            CornerRadius="10"
+                            Background="{TemplateBinding Background}"/>
+                </Panel>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+
+    <Style Selector="RadioButton.AccentSwatch:checked /template/ Border#Ring">
+        <Setter Property="Opacity" Value="1"/>
     </Style>
 </Styles>
