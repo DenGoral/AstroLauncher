@@ -7,17 +7,17 @@
         <ResourceDictionary x:Key="Dark">
             <SolidColorBrush x:Key="SurfaceMain">#0A0E14</SolidColorBrush>
             <SolidColorBrush x:Key="SurfaceCard">#252733</SolidColorBrush>
+            <SolidColorBrush x:Key="SurfaceSecondary">#0D111D</SolidColorBrush>
             <SolidColorBrush x:Key="TextPrimary">White</SolidColorBrush>
             <SolidColorBrush x:Key="TextSecondary">LightSlateGray</SolidColorBrush>
-            <SolidColorBrush x:Key="SurfaceSecondary">#0D111D</SolidColorBrush>
         </ResourceDictionary>
-        
+
         <ResourceDictionary x:Key="Light">
-            <SolidColorBrush x:Key="SurfaceMain">#F3F5F9</SolidColorBrush>
+            <SolidColorBrush x:Key="SurfaceMain">#EDF1F7</SolidColorBrush>
             <SolidColorBrush x:Key="SurfaceCard">#FFFFFF</SolidColorBrush>
-            <SolidColorBrush x:Key="SurfaceSecondary">#E9ECF3</SolidColorBrush>
-            <SolidColorBrush x:Key="TextPrimary">#111827</SolidColorBrush>
-            <SolidColorBrush x:Key="TextSecondary">#64748B</SolidColorBrush>
+            <SolidColorBrush x:Key="SurfaceSecondary">#E2E7F0</SolidColorBrush>
+            <SolidColorBrush x:Key="TextPrimary">#0A0E14</SolidColorBrush>
+            <SolidColorBrush x:Key="TextSecondary">#5C6B7F</SolidColorBrush>
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>
